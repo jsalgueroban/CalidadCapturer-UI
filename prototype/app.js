@@ -27,6 +27,8 @@ function showScreen(next) {
   void target.offsetWidth;
   target.classList.add("is-active");
   currentScreen = next;
+  const scrollRegion = target.querySelector(".app-scroll");
+  if (scrollRegion) scrollRegion.scrollTop = 0;
   document.querySelectorAll(".nav-item").forEach((item) => {
     const selected = item.dataset.screen === next;
     item.classList.toggle("is-current", selected);

@@ -164,71 +164,23 @@
                   </button>
                 </header>
                 <div class="app-scroll">
-                  <p class="eyebrow">BUEN DÍA</p>
-                  <h2 id="home-title" class="page-title">
-                    Tu trabajo,<br /><em>en foco.</em>
-                  </h2>
-                  <p class="page-subtitle">Elige la siguiente acción.</p>
-                  <div class="hero-card">
-                    <div class="hero-card-top">
-                      <span class="pill"
-                        ><span class="pill-dot"></span> NUEVO REGISTRO</span
-                      ><span class="hero-orbit" aria-hidden="true">◎</span>
-                    </div>
-                    <div>
-                      <h3>Captura con precisión.</h3>
-                      <p>Avanza paso a paso y revisa antes de confirmar.</p>
-                    </div>
-                    <button
-                      class="button button-lime"
-                      id="start-capture"
-                      type="button"
-                    >
-                      Iniciar captura <span aria-hidden="true">↗</span>
-                    </button>
+                  <div class="home-intro">
+                    <div><p class="eyebrow">ESTACIÓN / 01</p><h2 id="home-title" class="page-title">Listo para<br /><em>capturar.</em></h2></div>
+                    <span class="edition-tag">PULSO<br />01—24</span>
                   </div>
-                  <div class="section-heading">
-                    <h3>Estados del sistema</h3>
-                    <span>DEMO</span>
+                  <p class="page-subtitle">Cada detalle tiene un lugar. Empieza por el contexto y cierra con una revisión.</p>
+                  <div class="capture-console">
+                    <div class="console-top"><span><i class="live-dot"></i> MODO CAPTURA</span><span>01 / 02</span></div>
+                    <div class="console-stage">
+                      <div class="console-scale" aria-hidden="true"><span>00</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
+                      <div class="focus-field" aria-hidden="true"><span class="focus-corner tl"></span><span class="focus-corner tr"></span><span class="focus-corner bl"></span><span class="focus-corner br"></span><span class="focus-core"></span><span class="focus-axis"></span></div>
+                      <div class="console-readout"><span>ENFOCAR</span><strong>El siguiente registro<br />empieza aquí.</strong></div>
+                    </div>
+                    <button class="console-action" id="start-capture" type="button"><span class="action-index">01</span><span>Iniciar captura<small>Contexto → revisión</small></span><span class="action-arrow" aria-hidden="true">↗</span></button>
                   </div>
-                  <div class="status-list" aria-label="Ejemplos de estados">
-                    <div class="status-row">
-                      <span
-                        class="status-symbol status-success"
-                        aria-hidden="true"
-                        >✓</span
-                      >
-                      <div>
-                        <strong>Confirmado</strong
-                        ><small>Acción completada</small>
-                      </div>
-                      <span class="status-arrow" aria-hidden="true">↗</span>
-                    </div>
-                    <div class="status-row">
-                      <span
-                        class="status-symbol status-pending"
-                        aria-hidden="true"
-                        >↻</span
-                      >
-                      <div>
-                        <strong>Pendiente</strong
-                        ><small>Requiere seguimiento</small>
-                      </div>
-                      <span class="status-arrow" aria-hidden="true">↗</span>
-                    </div>
-                    <div class="status-row">
-                      <span
-                        class="status-symbol status-error"
-                        aria-hidden="true"
-                        >!</span
-                      >
-                      <div>
-                        <strong>Requiere atención</strong
-                        ><small>Hay una acción disponible</small>
-                      </div>
-                      <span class="status-arrow" aria-hidden="true">↗</span>
-                    </div>
-                  </div>
+                  <div class="operation-strip"><span>FLUJO DE EJEMPLO</span><div><b>01</b> Contexto <span class="strip-line"></span><b>02</b> Revisión</div></div>
+                  <div class="section-heading"><h3>Lenguaje de estado</h3><span>VISTA PREVIA</span></div>
+                  <div class="signal-board" aria-label="Estados de ejemplo"><div><span class="signal-bar ok"></span><strong>Confirmado</strong><small>Acción completada</small></div><div><span class="signal-bar wait"></span><strong>Pendiente</strong><small>Por revisar</small></div><div><span class="signal-bar alert"></span><strong>Atención</strong><small>Acción disponible</small></div></div>
                 </div>
                 <nav class="bottom-nav" aria-label="Navegación principal">
                   <button
@@ -269,16 +221,15 @@
                   ><span class="header-spacer"></span>
                 </header>
                 <div class="app-scroll capture-scroll">
-                  <p class="eyebrow">PASO 01 / 02</p>
+                  <div class="step-heading"><p class="eyebrow">SECUENCIA DE CAPTURA</p><span>01 — 02</span></div>
                   <h2 id="capture-title" class="page-title">
-                    Pon el<br /><em>contexto.</em>
+                    Primero, el<br /><em>contexto.</em>
                   </h2>
                   <p class="page-subtitle">
                     Ejemplo de formulario y validación. No guarda datos.
                   </p>
-                  <div class="progress-track" aria-label="Paso 1 de 2">
-                    <span></span>
-                  </div>
+                  <div class="sequence-map" aria-label="Paso 1 de 2"><div class="sequence-node active"><span>01</span><strong>Contexto</strong></div><div class="sequence-connector"></div><div class="sequence-node"><span>02</span><strong>Revisión</strong></div></div>
+                  <div class="form-heading"><span>DATOS DEL REGISTRO</span><span>01 / 02</span></div>
                   <form id="capture-form" novalidate>
                     <div class="field-group field-light">
                       <label for="reference">Referencia de ejemplo</label
@@ -316,30 +267,9 @@
                         antes de implementación.
                       </p>
                     </div>
-                    <button type="submit" class="button button-dark full-width">
-                      Continuar a revisión <span aria-hidden="true">→</span>
-                    </button>
                   </form>
                 </div>
-                <nav class="bottom-nav" aria-label="Navegación principal">
-                  <button type="button" class="nav-item" data-screen="home">
-                    <span aria-hidden="true">⌂</span><span>Inicio</span></button
-                  ><button
-                    type="button"
-                    class="nav-item is-current"
-                    data-screen="capture"
-                    aria-current="page"
-                  >
-                    <span aria-hidden="true">◎</span
-                    ><span>Captura</span></button
-                  ><button
-                    type="button"
-                    class="nav-item"
-                    data-screen="components"
-                  >
-                    <span aria-hidden="true">▦</span><span>Elementos</span>
-                  </button>
-                </nav>
+                <div class="capture-action-dock"><button type="submit" form="capture-form" class="button button-dark full-width">Continuar a revisión <span aria-hidden="true">→</span></button></div>
               </section>
 
               <section
@@ -360,18 +290,17 @@
                   ><span class="header-spacer"></span>
                 </header>
                 <div class="app-scroll">
-                  <p class="eyebrow">PASO 02 / 02</p>
+                  <div class="step-heading"><p class="eyebrow">SECUENCIA DE CAPTURA</p><span>02 — 02</span></div>
                   <h2 id="review-title" class="page-title">
-                    Antes de<br /><em>confirmar.</em>
+                    Lectura<br /><em>final.</em>
                   </h2>
                   <p class="page-subtitle">
                     Revisa el ejemplo. Confirmar sólo modifica esta maqueta.
                   </p>
-                  <div class="progress-track complete" aria-label="Paso 2 de 2">
-                    <span></span>
-                  </div>
+                  <div class="sequence-map" aria-label="Paso 2 de 2"><div class="sequence-node done"><span>✓</span><strong>Contexto</strong></div><div class="sequence-connector filled"></div><div class="sequence-node active"><span>02</span><strong>Revisión</strong></div></div>
                   <div class="review-card">
-                    <span class="eyebrow">RESUMEN DE EJEMPLO</span>
+                    <div class="review-card-header"><span class="eyebrow">REGISTRO / DEMO</span><span class="review-mark" aria-hidden="true">◎</span></div>
+                    <p class="review-card-title">Verifica antes de cerrar.</p>
                     <dl>
                       <div>
                         <dt>Referencia</dt>
@@ -420,6 +349,12 @@
                   <p class="page-subtitle">
                     Estados de botones y patrones candidatos.
                   </p>
+                  <div class="component-section">
+                    <span class="eyebrow">PATRONES DE PULSO</span>
+                    <div class="pattern-sample"><span class="pattern-sample-mark" aria-hidden="true">◎</span><div><strong>Foco operativo</strong><small>Una acción dominante dentro de un marco de lectura.</small></div><span>01</span></div>
+                    <div class="sequence-map component-sequence" aria-label="Secuencia de ejemplo"><div class="sequence-node done"><span>✓</span><strong>Contexto</strong></div><div class="sequence-connector filled"></div><div class="sequence-node active"><span>02</span><strong>Revisión</strong></div></div>
+                    <p class="component-help">La barra contextual mantiene “Continuar” disponible mientras el contenido se desplaza.</p>
+                  </div>
                   <div class="component-section">
                     <span class="eyebrow">ACCIONES</span
                     ><button

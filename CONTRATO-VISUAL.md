@@ -1,5 +1,13 @@
 # Contrato visual · Pulso de captura · v0.1
 
+## Iteración v0.2 · consola de captura
+
+La crítica visual del prototipo inicial detectó una composición intercambiable: titular amplio, tarjeta de llamada a la acción y lista de estados. La dirección A se expresa ahora como **instrumento de lectura**: retícula de enfoque, escala 00–100 ilustrativa, contador de secuencia y acción integrada. La escala es un recurso gráfico de demostración, no una medición de calidad ni un dato real.
+
+Tres patrones conectan el recorrido: **consola de foco** para empezar, **mapa de secuencia** para orientar los dos pasos ilustrativos y **barra de acción contextual** para mantener visible “Continuar” durante la entrada. La revisión adopta una ficha con cabecera de registro y lectura por filas. En navegación principal, el destino activo ocupa una pastilla de tinta; durante la captura, el retorno superior y la barra contextual sustituyen esa navegación.
+
+Se conservaron los tokens de color y tipografía de v0.1. El motivo de foco se compone en 350–400 ms al abrir la vista y se elimina con `prefers-reduced-motion`. La interfaz sigue siendo una maqueta con datos ilustrativos.
+
 **Decisión:** el responsable seleccionó A · Pulso de captura el 15/10/2026. Esta selección autoriza construir el prototipo de dirección. La aprobación del paquete final y de las reglas funcionales sigue pendiente. **Modo visual:** `redesign-in-progress`. **Modo de trabajo:** `create` de prototipo aislado, con exploración secundaria de icono. **Plataforma del artefacto:** navegador; las pantallas representan una app móvil, sin afirmar paridad con iOS/Android nativos.
 
 ## Firma y uso

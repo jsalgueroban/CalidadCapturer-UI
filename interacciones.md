@@ -1,5 +1,17 @@
 # Interacciones, botones y acciones · contrato inicial
 
+## Recorrido del prototipo v0.2
+
+| Vista | Acción dominante | Acción secundaria | Transición |
+| --- | --- | --- | --- |
+| Inicio | `Iniciar captura` dentro de la consola | Abrir perfil o cambiar sección | El foco gráfico se compone al entrar; abre Contexto |
+| Contexto | `Continuar a revisión` en barra fija | Volver al inicio desde cabecera | Validación junto al campo y foco en el error; abre Revisión |
+| Revisión | `Confirmar demostración` | `Editar ejemplo` | Confirmar vuelve a Inicio con aviso; editar conserva valores |
+| Perfil | `Cerrar sesión` | Volver | Limpia campos ilustrativos y vuelve a ingreso |
+
+El mapa visual 01–02 describe exclusivamente el ejemplo navegable; no fija el número de pasos del producto final. Las transiciones se pueden interrumpir y desaparecen con reducción de movimiento.
+
+
 Las acciones siguientes son patrones de experiencia, no permisos ni funciones de negocio confirmadas. Cada pantalla futura debe completar recurso, autorización, precondición, efecto local, efecto remoto y estado posterior. La API conserva la autoridad de autorización.
 
 ## Jerarquía de botones

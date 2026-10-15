@@ -1,5 +1,16 @@
 # Catálogo inicial de componentes
 
+## Patrones visibles en Pulso v0.2
+
+| Patrón | Decisión de composición | Acción y estado |
+| --- | --- | --- |
+| Consola de foco | Retícula y escala gráfica en una superficie de tinta; una sola acción cítrica | `Iniciar captura` abre el primer paso; foco y pulsación visibles |
+| Mapa de secuencia | Nodos numerados con conector y etiquetas persistentes | Paso activo, completado y próximo se distinguen por texto, forma y color |
+| Barra contextual | Acción primaria fija al pie del formulario; retorno en cabecera | `Continuar a revisión` valida, enfoca el campo con error y muestra su mensaje |
+| Ficha de revisión | Cabecera de registro, título y filas de lectura | `Confirmar demostración` y `Editar ejemplo` tienen distinta jerarquía |
+| Señal de estado | Tres columnas con regla de color, título y descripción | El texto mantiene el significado sin depender del color |
+
+
 Estructura candidata de la suite Banasan: **tokens → primitives → compuestos → feature → pantalla**. Se documenta intención y estados; las propiedades y la implementación se definirán contra el stack real después de seleccionar dirección.
 
 | Capa | Pieza candidata | Responsabilidad | Estados y accesibilidad |
