@@ -10,50 +10,22 @@
     <title>Calidad Capturer · Pulso de captura</title>
     <link rel="icon" href="../assets/icono-pulso.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="v3.css" />
     <script src="app.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#app-content">Saltar al contenido</a>
     <div class="studio-shell">
       <aside class="studio-panel" aria-label="Ficha de la propuesta">
-        <div class="studio-kicker">
-          <span class="signal-dot"></span> DIRECCIÓN SELECCIONADA · A
-        </div>
-        <div class="studio-logo">
-          <img src="../assets/icono-pulso.svg" alt="" /> Calidad Capturer
-        </div>
-        <h1>La precisión<br /><em>toma forma.</em></h1>
-        <p class="studio-intro">
-          Un lenguaje móvil para enfocar, registrar y confirmar con claridad.
-          Esta maqueta permite recorrer transiciones, botones y estados de la
-          identidad <strong>Pulso de captura</strong>.
-        </p>
-        <div class="studio-facts">
-          <div>
-            <span>01</span>
-            <p>Identidad propia</p>
-          </div>
-          <div>
-            <span>02</span>
-            <p>Acciones explícitas</p>
-          </div>
-          <div>
-            <span>03</span>
-            <p>Motion con propósito</p>
-          </div>
-        </div>
-        <div class="studio-footer">
-          <span class="demo-badge">PROTOTIPO</span>
-          <p>
-            Datos ilustrativos. No autentica, guarda ni sincroniza información
-            real.
-          </p>
-        </div>
+        <div class="studio-logo"><img src="../assets/icono-pulso.svg" alt="" /> Calidad Capturer</div>
+        <div class="studio-summary"><span>Propuesta móvil · v0.3</span><h1>Registrar con claridad.</h1><p>Un recorrido para explorar ingreso, captura y revisión. Los datos de esta maqueta son ilustrativos.</p></div>
+        <div class="studio-index"><span>Recorrido</span><p>Ingreso</p><p>Inicio</p><p>Captura</p><p>Revisión</p><p>Elementos</p></div>
+        <div class="studio-footer"><span class="demo-badge">PROTOTIPO</span><p>Sin autenticación ni guardado real.</p></div>
       </aside>
 
       <main id="app-content" class="preview-area" tabindex="-1">
         <div class="preview-topline">
-          <span>VISTA INTERACTIVA</span><span>01 / IDENTIDAD MÓVIL</span>
+          <span>Vista interactiva</span><span>Pulso de captura</span>
         </div>
         <div class="device-wrap">
           <div class="device" aria-label="Prototipo de aplicación móvil">
@@ -68,7 +40,6 @@
                 class="screen screen-login is-active"
                 aria-labelledby="login-title"
               >
-                <div class="login-glow" aria-hidden="true"></div>
                 <div class="login-brand">
                   <div class="brand-mark">
                     <img src="../assets/icono-pulso.svg" alt="" />
@@ -76,9 +47,8 @@
                   <span>CALIDAD<br />CAPTURER</span>
                 </div>
                 <div class="login-content">
-                  <span class="eyebrow light">OPERACIÓN CON CLARIDAD</span>
-                  <h2 id="login-title">Cada detalle<br />cuenta.</h2>
-                  <p>Ingresa para continuar tu trabajo.</p>
+                  <h2 id="login-title">Ingresa a tu espacio</h2>
+                  <p>Continúa con tus registros de calidad.</p>
                   <form id="login-form" novalidate>
                     <div class="field-group">
                       <label for="email">Correo de acceso</label>
@@ -137,9 +107,7 @@
                     explorar el prototipo.
                   </p>
                 </div>
-                <div class="login-bottom">
-                  Una experiencia Banasan · Concepto móvil
-                </div>
+                <div class="login-bottom">Prototipo de identidad móvil</div>
               </section>
 
               <section
@@ -164,23 +132,14 @@
                   </button>
                 </header>
                 <div class="app-scroll">
-                  <div class="home-intro">
-                    <div><p class="eyebrow">ESTACIÓN / 01</p><h2 id="home-title" class="page-title">Listo para<br /><em>capturar.</em></h2></div>
-                    <span class="edition-tag">PULSO<br />01—24</span>
-                  </div>
-                  <p class="page-subtitle">Cada detalle tiene un lugar. Empieza por el contexto y cierra con una revisión.</p>
-                  <div class="capture-console">
-                    <div class="console-top"><span><i class="live-dot"></i> MODO CAPTURA</span><span>01 / 02</span></div>
-                    <div class="console-stage">
-                      <div class="console-scale" aria-hidden="true"><span>00</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
-                      <div class="focus-field" aria-hidden="true"><span class="focus-corner tl"></span><span class="focus-corner tr"></span><span class="focus-corner bl"></span><span class="focus-corner br"></span><span class="focus-core"></span><span class="focus-axis"></span></div>
-                      <div class="console-readout"><span>ENFOCAR</span><strong>El siguiente registro<br />empieza aquí.</strong></div>
-                    </div>
-                    <button class="console-action" id="start-capture" type="button"><span class="action-index">01</span><span>Iniciar captura<small>Contexto → revisión</small></span><span class="action-arrow" aria-hidden="true">↗</span></button>
-                  </div>
-                  <div class="operation-strip"><span>FLUJO DE EJEMPLO</span><div><b>01</b> Contexto <span class="strip-line"></span><b>02</b> Revisión</div></div>
-                  <div class="section-heading"><h3>Lenguaje de estado</h3><span>VISTA PREVIA</span></div>
-                  <div class="signal-board" aria-label="Estados de ejemplo"><div><span class="signal-bar ok"></span><strong>Confirmado</strong><small>Acción completada</small></div><div><span class="signal-bar wait"></span><strong>Pendiente</strong><small>Por revisar</small></div><div><span class="signal-bar alert"></span><strong>Atención</strong><small>Acción disponible</small></div></div>
+                  <h2 id="home-title" class="page-title">Inicio</h2>
+                  <p class="page-subtitle">Tus registros, a mano.</p>
+                  <section class="work-action" aria-labelledby="new-capture-title">
+                    <div class="work-action-heading"><span class="work-action-icon" aria-hidden="true">＋</span><h3 id="new-capture-title">Nueva captura</h3></div>
+                    <p>Registra el contexto y revisa los datos antes de terminar.</p>
+                    <button id="start-capture" class="button button-dark full-width" type="button">Empezar captura <span aria-hidden="true">→</span></button>
+                  </section>
+                  <section class="activity-section" aria-labelledby="activity-title"><div class="section-heading"><h3 id="activity-title">Estados de ejemplo</h3><span>Demostración</span></div><div class="activity-row"><span class="activity-marker ready"></span><div><strong>Listo para revisar</strong><small>El registro tiene datos por confirmar</small></div></div><div class="activity-row"><span class="activity-marker pending"></span><div><strong>En progreso</strong><small>Hay trabajo pendiente</small></div></div><p class="activity-note">Estos estados muestran el lenguaje visual; no representan registros reales.</p></section>
                 </div>
                 <nav class="bottom-nav" aria-label="Navegación principal">
                   <button
@@ -221,18 +180,13 @@
                   ><span class="header-spacer"></span>
                 </header>
                 <div class="app-scroll capture-scroll">
-                  <div class="step-heading"><p class="eyebrow">SECUENCIA DE CAPTURA</p><span>01 — 02</span></div>
-                  <h2 id="capture-title" class="page-title">
-                    Primero, el<br /><em>contexto.</em>
-                  </h2>
-                  <p class="page-subtitle">
-                    Ejemplo de formulario y validación. No guarda datos.
-                  </p>
+                  <h2 id="capture-title" class="page-title">Contexto</h2>
+                  <p class="page-subtitle">Completa los datos de este ejemplo.</p>
                   <div class="sequence-map" aria-label="Paso 1 de 2"><div class="sequence-node active"><span>01</span><strong>Contexto</strong></div><div class="sequence-connector"></div><div class="sequence-node"><span>02</span><strong>Revisión</strong></div></div>
-                  <div class="form-heading"><span>DATOS DEL REGISTRO</span><span>01 / 02</span></div>
+                  <div class="form-heading"><span>Datos del registro</span><span>1 de 2</span></div>
                   <form id="capture-form" novalidate>
                     <div class="field-group field-light">
-                      <label for="reference">Referencia de ejemplo</label
+                      <label for="reference">Referencia <span class="field-qualifier">Obligatorio</span></label
                       ><input
                         id="reference"
                         name="reference"
@@ -247,7 +201,7 @@
                       ></span>
                     </div>
                     <div class="field-group field-light">
-                      <label for="note">Observación</label
+                      <label for="note">Observación <span class="field-qualifier">Opcional</span></label
                       ><textarea
                         id="note"
                         name="note"
@@ -256,20 +210,17 @@
                         aria-describedby="note-help"
                       ></textarea
                       ><span class="field-help" id="note-help"
-                        >Campo ilustrativo para revisar densidad y
-                        legibilidad.</span
+                        >Puedes editar esta nota antes de confirmar.</span
                       >
                     </div>
                     <div class="inline-info">
-                      <span aria-hidden="true">✦</span>
                       <p>
-                        Las reglas de captura reales se definirán con Producto
-                        antes de implementación.
+                        Los campos y reglas reales se definirán con Producto. Esta vista no guarda datos.
                       </p>
                     </div>
                   </form>
                 </div>
-                <div class="capture-action-dock"><button type="submit" form="capture-form" class="button button-dark full-width">Continuar a revisión <span aria-hidden="true">→</span></button></div>
+                <div class="capture-action-dock"><button type="submit" form="capture-form" class="button button-dark full-width">Continuar <span aria-hidden="true">→</span></button></div>
               </section>
 
               <section
@@ -290,17 +241,11 @@
                   ><span class="header-spacer"></span>
                 </header>
                 <div class="app-scroll">
-                  <div class="step-heading"><p class="eyebrow">SECUENCIA DE CAPTURA</p><span>02 — 02</span></div>
-                  <h2 id="review-title" class="page-title">
-                    Lectura<br /><em>final.</em>
-                  </h2>
-                  <p class="page-subtitle">
-                    Revisa el ejemplo. Confirmar sólo modifica esta maqueta.
-                  </p>
+                  <h2 id="review-title" class="page-title">Revisión</h2>
+                  <p class="page-subtitle">Comprueba estos datos antes de terminar.</p>
                   <div class="sequence-map" aria-label="Paso 2 de 2"><div class="sequence-node done"><span>✓</span><strong>Contexto</strong></div><div class="sequence-connector filled"></div><div class="sequence-node active"><span>02</span><strong>Revisión</strong></div></div>
                   <div class="review-card">
-                    <div class="review-card-header"><span class="eyebrow">REGISTRO / DEMO</span><span class="review-mark" aria-hidden="true">◎</span></div>
-                    <p class="review-card-title">Verifica antes de cerrar.</p>
+                    <div class="review-card-header"><span>Registro de ejemplo</span><span>Sin guardar</span></div>
                     <dl>
                       <div>
                         <dt>Referencia</dt>
@@ -342,21 +287,15 @@
                   ><span class="header-spacer"></span>
                 </header>
                 <div class="app-scroll">
-                  <p class="eyebrow">PIEZAS BASE</p>
-                  <h2 id="components-title" class="page-title">
-                    Un lenguaje<br /><em>consistente.</em>
-                  </h2>
-                  <p class="page-subtitle">
-                    Estados de botones y patrones candidatos.
-                  </p>
+                  <h2 id="components-title" class="page-title">Elementos</h2>
+                  <p class="page-subtitle">Acciones y estados del prototipo.</p>
                   <div class="component-section">
-                    <span class="eyebrow">PATRONES DE PULSO</span>
-                    <div class="pattern-sample"><span class="pattern-sample-mark" aria-hidden="true">◎</span><div><strong>Foco operativo</strong><small>Una acción dominante dentro de un marco de lectura.</small></div><span>01</span></div>
+                    <span class="eyebrow">Recorrido de captura</span>
                     <div class="sequence-map component-sequence" aria-label="Secuencia de ejemplo"><div class="sequence-node done"><span>✓</span><strong>Contexto</strong></div><div class="sequence-connector filled"></div><div class="sequence-node active"><span>02</span><strong>Revisión</strong></div></div>
-                    <p class="component-help">La barra contextual mantiene “Continuar” disponible mientras el contenido se desplaza.</p>
+                    <p class="component-help">La acción principal permanece al pie del formulario.</p>
                   </div>
                   <div class="component-section">
-                    <span class="eyebrow">ACCIONES</span
+                    <span class="eyebrow">Acciones</span
                     ><button
                       type="button"
                       class="button button-dark full-width demo-button"
@@ -381,7 +320,7 @@
                     </button>
                   </div>
                   <div class="component-section">
-                    <span class="eyebrow">ESTADOS</span>
+                    <span class="eyebrow">Estados</span>
                     <div class="chip-row">
                       <span class="state-chip chip-success">✓ Confirmado</span
                       ><span class="state-chip chip-pending">◌ Pendiente</span
@@ -393,7 +332,7 @@
                     </p>
                   </div>
                   <div class="component-section">
-                    <span class="eyebrow">CONTENIDO Y RECUPERACIÓN</span>
+                    <span class="eyebrow">Contenido y recuperación</span>
                     <div class="state-example">
                       <strong>Sin registros</strong>
                       <p>
@@ -424,17 +363,6 @@
                       ><span class="visually-hidden"
                         >Cargando contenido de ejemplo</span
                       >
-                    </div>
-                  </div>
-                  <div class="component-section">
-                    <span class="eyebrow">MATERIALIDAD</span>
-                    <div class="material-card">
-                      <span class="material-orbit" aria-hidden="true">◎</span
-                      ><strong>Profundidad puntual.</strong>
-                      <p>
-                        Contenido opaco y legible; acento reservado para
-                        acciones.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -473,10 +401,7 @@
                   ><span class="header-spacer"></span>
                 </header>
                 <div class="app-scroll">
-                  <p class="eyebrow">TU ESPACIO</p>
-                  <h2 id="profile-title" class="page-title">
-                    Siempre<br /><em>en control.</em>
-                  </h2>
+                  <h2 id="profile-title" class="page-title">Perfil</h2>
                   <div class="profile-card">
                     <div class="profile-avatar">JS</div>
                     <div>

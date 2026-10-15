@@ -1,5 +1,13 @@
 # Contrato visual · Pulso de captura · v0.1
 
+## Iteración v0.3 · herramienta de trabajo
+
+El usuario rechazó la v0.2 por percibirse generada y genérica. Se retiraron la retícula, la escala 00–100, los rótulos ornamentales, la consola oscura y los titulares promocionales. En móvil, el prototipo ocupa la pantalla completa; el marco de teléfono queda sólo en la vista de revisión de escritorio.
+
+La firma de Pulso se concentra en el icono, una dosis pequeña de lima para la acción de crear y el estado, y transiciones breves de pantalla. La jerarquía se apoya en tareas visibles: nueva captura, campos con etiqueta persistente, progreso de contexto a revisión y una acción primaria fija en el formulario. El inicio muestra estados ilustrativos en filas de lectura; no finge registros reales.
+
+**Decisión visual:** fondo blanco, tinta para texto y acciones, separadores finos, radios de hasta 10 px en controles y superficies, sin sombras decorativas. Se conserva la paleta base, con menor proporción de color oscuro y acento. El movimiento de entrada es una transición de 180 ms con 5 px de desplazamiento; se elimina con reducción de movimiento. Esta iteración sustituye la v0.2 como propuesta visible, pero no aprueba icono, tokens ni reglas funcionales finales.
+
 ## Iteración v0.2 · consola de captura
 
 La crítica visual del prototipo inicial detectó una composición intercambiable: titular amplio, tarjeta de llamada a la acción y lista de estados. La dirección A se expresa ahora como **instrumento de lectura**: retícula de enfoque, escala 00–100 ilustrativa, contador de secuencia y acción integrada. La escala es un recurso gráfico de demostración, no una medición de calidad ni un dato real.

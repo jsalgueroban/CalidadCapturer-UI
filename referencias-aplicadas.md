@@ -1,5 +1,10 @@
 # Referencias aplicadas de la suite Banasan
 
+## Crítica de v0.2 y efecto en v0.3
+
+La revisión con Banasan Product Design y las prohibiciones de `impeccable` detectó cuatro rasgos visibles de plantilla generada: rótulos en mayúsculas sobre cada bloque, numeración ornamental, gran superficie oscura con retícula sin función y texto promocional alrededor de una app operativa. Se retiraron de `prototype/index.html`. Banasan Frontend conservó el flujo y el manejo de foco/errores; UI Engineering conservó un primario por contexto y la barra contextual. La identidad ahora depende de jerarquía, contenido y una pequeña aplicación del acento, no de una escena decorativa. No se incorporó otra librería ni se tomaron pantallas del proyecto local como evidencia.
+
+
 Consulta realizada el 15 de octubre de 2026. Estas fuentes son apoyo de diseño, no autoridad de producto ni identidad aprobada.
 
 | Fuente / operación | Resultado observado | Decisión que cambió |

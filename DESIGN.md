@@ -1,5 +1,10 @@
 # Dirección visual · exploración 01
 
+## Evolución de la dirección A · v0.3
+
+La selección de “Pulso de captura” se mantiene como nombre de exploración, pero la ejecución v0.2 fue rechazada por el usuario: la metáfora de instrumento se volvió decoración. La v0.3 concentra la marca en el icono y un acento funcional; presenta la captura como tarea, con etiquetas, progreso y acción persistente. La página de escritorio pasa de hero promocional a ficha de revisión. La comparación visual y el motivo del retiro están en `docs/entrega-pulso-v03.md`.
+
+
 ## Brief de producto
 
 **Objetivo confirmado.** Construir una identidad móvil moderna para Calidad Capturer, con icono, patrones y componentes coherentes, y con acciones definidas antes de dibujar pantallas. El movimiento debe dar continuidad al ingreso, autenticación, salida y navegación.

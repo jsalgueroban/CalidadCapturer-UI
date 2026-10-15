@@ -1,5 +1,10 @@
 # Catálogo inicial de componentes
 
+## Estado de la iteración v0.3
+
+Se retiran la **consola de foco** y la **escala gráfica** de v0.2: no comunicaban un dato ni una acción real. Se conservan el mapa de progreso de dos pasos, la barra contextual y la ficha de revisión con una composición más sobria. La lista de estados pasa a filas con título y descripción; la señal de color es secundaria. La navegación principal vuelve a una selección textual simple.
+
+
 ## Patrones visibles en Pulso v0.2
 
 | Patrón | Decisión de composición | Acción y estado |
