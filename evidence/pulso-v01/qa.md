@@ -45,4 +45,3 @@ Esta tabla registra pares principales comprobados matemáticamente; no sustituye
 - **Done del paquete final:** no. Falta definir flujos reales y aprobar icono/tokens antes de integración móvil.
 
 **Rollback:** revertir esta rama o retirar `prototype/`, `assets/icono-pulso*` y el contrato v0.1; no hay datos ni servicios afectados.
-
