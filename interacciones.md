@@ -29,13 +29,13 @@ La semántica de captura, persistencia, modo offline y sincronización queda abi
 
 | Momento | Intención | Composición candidata | Límite |
 | --- | --- | --- | --- |
-| Abrir app | Reconocer marca y orientar | Marco del icono se dibuja una vez y converge al encabezado | Sin splash prolongado ni bloqueo artificial de contenido |
+| Primera presentación de la app | Reconocer marca y orientar | El marco del icono se compone una vez y converge al encabezado | No repetir en cada apertura ni bloquear contenido |
 | Login correcto | Dar continuidad entre identidad y área de trabajo | Formulario se repliega; destino entra desde el eje de navegación | La navegación responde de inmediato; no depende de redibujar marca |
 | Login fallido | Ubicar el problema | Mensaje aparece junto al campo; microdesplazamiento opcional | Evitar sacudidas extensas y error sólo cromático |
 | Cambio de vista | Mantener orientación | Desplazamiento corto para jerarquía; disolución para cambio lateral | No animar cada tarjeta en una lista operativa |
 | Salir | Confirmar cambio de contexto | El contenido se desvanece y regresa el ingreso | Estado y datos se limpian según contrato de sesión, no por duración del efecto |
 
-Los tiempos iniciales para prototipo serán 160–240 ms para cambios de vista y 240–360 ms para composición de entrada; se ajustarán con prueba en dispositivo, sin convertirlos en tokens universales. El movimiento debe ser interrumpible. Con `reduce motion`, sustituir desplazamientos/composición por cambio inmediato o disolución breve. Ninguna información aparece únicamente por animación.
+Los tiempos iniciales para prototipo serán 150–250 ms para cambios de vista; la composición de primera presentación podrá durar hasta 300 ms si no retrasa la tarea. El feedback de pulsación será inmediato y breve (100–160 ms). Son hipótesis para prueba en dispositivo, no tokens universales. El movimiento debe ser interrumpible; no se animan acciones repetidas decenas de veces al día salvo feedback mínimo de pulsación. Con `reduce motion`, sustituir desplazamientos/composición por cambio inmediato o disolución breve. Ninguna información aparece únicamente por animación.
 
 ## Patrón de feedback
 

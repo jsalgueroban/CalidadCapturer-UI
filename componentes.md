@@ -22,6 +22,7 @@ Estructura candidata de la suite Banasan: **tokens → primitives → compuestos
 - **Confirmación:** sheet o diálogo para pérdida de trabajo y efectos difíciles de deshacer; botón destructivo con consecuencia explícita.
 - **Mediciones y datos:** cifras tabulares, unidades persistentes, valores largos y ausentes previstos desde el diseño.
 - **Touch:** objetivos táctiles mínimos de 44 × 44 pt y separación que evite pulsación accidental.
+- **Separación entre objetivos táctiles:** candidato mínimo de 8 pt entre controles adyacentes; verificar en dispositivo y con el diseño final.
 
 ## Criterio de promoción
 

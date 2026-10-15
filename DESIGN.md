@@ -55,10 +55,13 @@ El archivo `assets/icono-concepto.svg` utiliza un marco de captura abierto, un p
 
 | Capacidad | Estado | Señal | Aporte / límite | Evidencia |
 | --- | --- | --- | --- | --- |
-| Banasan Product Design | Activada | Nueva identidad | Tres direcciones y selección pendiente | Este documento |
+| Banasan Product Design | Activada | Nueva identidad | Tres direcciones, comparación y selección pendiente | Este documento |
 | Banasan UI Engineering | Activada | Patrones y componentes | Capas y contrato candidato; sin API inventada | `componentes.md` |
 | Banasan Frontend | Activada como criterio | Acciones por vista | Matriz inicial de visibilidad, estado y efecto | `interacciones.md` |
 | Banasan Mobile | Activada como criterio | Producto móvil con motion | Perfil de estados y gate en hardware | `interacciones.md` |
 | Banasan Visual QA | Pendiente | No hay superficie ejecutable | Validará accesibilidad y fidelidad tras selección | Sin evidencia aún |
 | Banasan Delivery | Pendiente | No hay construcción de software | Convertirá diseño aprobado en slices | Sin evidencia aún |
 | Liquid Glass / renderizado avanzado | Evaluado, no seleccionado | Referencia iOS | Sólo C lo usa como hipótesis; requiere fallback | Matriz de territorios |
+| UI/UX Pro Max | Consultada | Catálogo de producto, toque e iconos | Se adoptó separación táctil; se rechazó el patrón newsletter y la paleta automática | `referencias-aplicadas.md` |
+| Awesome DESIGN.md | Consultada | Referencia iOS y herramientas operativas | Se adaptó jerarquía y uso reservado del acento; se rechazó copiar estilos de marketing | `referencias-aplicadas.md` |
+| Emil Design Engineering | Consultada | Motion de ingreso y navegación | Se limitó composición a primera presentación y se redujeron duraciones frecuentes | `referencias-aplicadas.md` |
