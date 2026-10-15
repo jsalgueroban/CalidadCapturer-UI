@@ -14,11 +14,13 @@ El repositorio se recibió vacío. Por instrucción del responsable, esta propue
 - [interacciones.md](interacciones.md): botones, acciones, estados y motion.
 - [componentes.md](componentes.md): catálogo inicial y frontera entre piezas.
 - [referencias-aplicadas.md](referencias-aplicadas.md): consultas concretas a herramientas de la suite, adopciones y rechazos.
-- [assets/icono-concepto.svg](assets/icono-concepto.svg): boceto vectorial editable del concepto recomendado; aún no es icono aprobado ni exportación para tiendas.
+- [CONTRATO-VISUAL.md](CONTRATO-VISUAL.md): dirección A seleccionada, tokens candidatos, motion, assets y límites.
+- [prototype/](prototype/README.md): maqueta móvil navegable para revisar pantallas, estados y transiciones.
+- [assets/icono-pulso.svg](assets/icono-pulso.svg): concepto vectorial seleccionado para el prototipo, con variantes y exportaciones en `assets/`. El [boceto inicial](assets/icono-concepto.svg) se conserva para comparar la retirada del check.
 
 ## Estado y siguiente gate
 
-Modo de trabajo `explore`; modo visual `redesign-in-progress`. La selección de dirección, el icono final y el contrato visual requieren revisión de producto. Una vez elegidos, se preparan variantes de plataforma, pantallas de referencia y especificación de componentes para implementación.
+La dirección A fue seleccionada el 15/10/2026. El prototipo usa modo de trabajo `create` dentro de `redesign-in-progress`. El icono, los tokens y las reglas funcionales todavía requieren revisión de producto antes de implementarse en la app.
 
 **Decisión de delegación:** `SELF`. Slice: análisis y paquete inicial de dirección visual en un repositorio vacío. La fuente operativa es la petición de este chat; el costo de trasladar ese contexto a un agente independiente no aportaría revisión material en esta fase. Se evaluará de nuevo al comparar prototipos o revisar una implementación extensa.
 

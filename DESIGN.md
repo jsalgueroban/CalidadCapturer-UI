@@ -30,11 +30,11 @@
 | Complejidad de implementación | Media | Baja | Alta |
 | Riesgo de movimiento excesivo | Bajo si se limita a entrada/continuidad | Muy bajo | Alto |
 
-**Recomendación para revisión:** A, *Pulso de captura*. Su motivo gráfico funciona en icono pequeño, estado de captura, carga y confirmación sin convertir la interfaz en una animación permanente. B sirve como control de legibilidad; C como exploración de mayor ambición para momentos excepcionales. Esta recomendación no equivale a aprobación.
+**Dirección seleccionada el 15/10/2026 por el responsable:** A, *Pulso de captura*. Su motivo gráfico conecta icono, foco y navegación sin convertir la interfaz en una animación permanente. B y C quedan como alternativas evaluadas. La selección de dirección autoriza el prototipo; el icono y el paquete funcional finales aún requieren aprobación.
 
 ## Boceto de icono A
 
-El archivo `assets/icono-concepto.svg` utiliza un marco de captura abierto, un punto de foco y un trazo de verificación integrado. Debe reconocerse a 48 px y en monocromo. Evitar texto, fotografía, brillos finos o detalles que desaparezcan en launcher. Antes de exportar se compararán variantes clara, oscura, monocroma y Android adaptive; los radios exteriores los administra cada plataforma.
+El boceto inicial `assets/icono-concepto.svg` utilizó un marco abierto, punto de foco y check integrado. La crítica detectó que el check podía sugerir aprobación previa. La iteración seleccionada para prototipo está en `assets/icono-pulso.svg`, con variantes clara y monocroma. Debe comprobarse a 32/48/64 px y sobre los fondos de launcher; los radios exteriores finales los administra cada plataforma.
 
 ## Sistema candidato, sujeto a selección
 
