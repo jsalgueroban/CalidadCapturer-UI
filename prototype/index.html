@@ -14,14 +14,15 @@
     <link rel="stylesheet" href="v4.css" />
     <link rel="stylesheet" href="v5.css" />
     <link rel="stylesheet" href="v6.css" />
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="v7.css" />
+    <script src="app.js?v=07" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#app-content">Saltar al contenido</a>
     <div class="studio-shell">
       <aside class="studio-panel" aria-label="Ficha de la propuesta">
         <div class="studio-logo"><img src="../assets/logo-capturer-light-v06.svg" alt="" /> Calidad Capturer</div>
-        <div class="studio-summary"><span>Propuesta móvil · v0.6</span><h1>Cada captura cuenta.</h1><p>Una evolución del símbolo original para registrar y revisar con claridad.</p></div>
+        <div class="studio-summary"><span>Propuesta móvil · v0.7</span><h1>Cada captura cuenta.</h1><p>Una evolución del símbolo original para registrar y revisar con claridad.</p></div>
         <div class="studio-index"><span>Recorrido</span><p>Bienvenida</p><p>Ingreso</p><p>Inicio</p><p>Captura</p><p>Revisión y cierre</p></div>
         <div class="studio-footer"><span class="demo-badge">PROTOTIPO</span><p>Sin autenticación ni guardado real.</p></div>
       </aside>
@@ -141,7 +142,7 @@
                   </button>
                 </header>
                 <div class="app-scroll home-scroll">
-                  <div class="home-greeting"><span>Hola de nuevo, John</span><h2 id="home-title" class="page-title">¿Qué vas a registrar hoy?</h2></div>
+                  <div class="home-greeting"><span>Hola de nuevo, John</span><h2 id="home-title" class="visually-hidden">Inicio</h2></div>
                   <section class="work-action" aria-labelledby="new-capture-title">
                     <div class="work-action-heading"><h3 id="new-capture-title">Nueva captura</h3><span class="work-action-icon" aria-hidden="true">↗</span></div>
                     <p>Empieza un registro y revisa sus datos antes de terminar.</p>
@@ -189,9 +190,8 @@
                   ><span class="header-spacer"></span>
                 </header>
                 <div class="app-scroll capture-scroll">
-                  <h2 id="capture-title" class="page-title">¿Qué estás registrando?</h2>
+                  <h2 id="capture-title" class="visually-hidden">Contexto de la captura</h2>
                   <div class="sequence-map" aria-label="Paso 1 de 2"><div class="sequence-node active"><span>01</span><strong>Contexto</strong></div><div class="sequence-connector"></div><div class="sequence-node"><span>02</span><strong>Revisión</strong></div></div>
-                  <div class="form-heading"><span>Datos de la captura</span></div>
                   <form id="capture-form" novalidate>
                     <div class="field-group field-light">
                       <label for="reference">Referencia <span class="field-qualifier">Obligatorio</span></label
@@ -223,7 +223,7 @@
                     </div>
                   </form>
                 </div>
-                <div class="capture-action-dock"><button type="submit" form="capture-form" class="button button-dark full-width">Continuar <span aria-hidden="true">→</span></button></div>
+                <div class="capture-action-dock"><button type="submit" form="capture-form" class="button button-dark full-width">Revisar datos <span aria-hidden="true">→</span></button></div>
               </section>
 
               <section
@@ -244,7 +244,7 @@
                   ><span class="header-spacer"></span>
                 </header>
                 <div class="app-scroll">
-                  <h2 id="review-title" class="page-title">¿Todo correcto?</h2>
+                  <h2 id="review-title" class="visually-hidden">Revisión de la captura</h2>
                   <div class="sequence-map" aria-label="Paso 2 de 2"><div class="sequence-node done"><span>✓</span><strong>Contexto</strong></div><div class="sequence-connector filled"></div><div class="sequence-node active"><span>02</span><strong>Revisión</strong></div></div>
                   <div class="review-card">
                     <div class="review-card-header"><span>Tu captura</span><span>Sin guardar</span></div>

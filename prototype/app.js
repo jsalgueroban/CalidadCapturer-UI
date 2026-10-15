@@ -122,7 +122,7 @@ captureForm.addEventListener("submit", (event) => {
   event.preventDefault();
   const reference = document.querySelector("#reference");
   if (!reference.value.trim()) {
-    setFieldError(reference, "Escribe una referencia para continuar.");
+    setFieldError(reference, "Escribe una referencia.");
     reference.focus();
     return;
   }

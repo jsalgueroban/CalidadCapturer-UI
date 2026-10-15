@@ -1,5 +1,9 @@
 # Dirección visual · exploración 01
 
+## Evolución v0.7
+
+La jerarquía de las tres vistas se centra en acción y contenido: saludo breve → nueva captura → historial; paso Contexto → campos; paso Revisión → resumen. Se retiraron los titulares interrogativos que repetían la información del stepper o de la tarjeta. La corrección conserva la dirección Pulso y la composición aprobada de Inicio.
+
 ## Evolución v0.6
 
 Se separaron icono de app y símbolo de interfaz: el primero usa fondo marfil; el segundo es transparente y tiene variantes para fondos claros y oscuros. En Inicio, la nota inferior fue sustituida por un historial corto con dos registros ilustrativos, claramente rotulados. La tarjeta coral y la fotografía documental se conservaron.

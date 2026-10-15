@@ -1,5 +1,11 @@
 # Contrato visual · Pulso de captura · v0.1
 
+## Evolución v0.7 · títulos que orientan sin repetir
+
+Se retiraron las preguntas grandes de Inicio, Contexto y Revisión a petición del usuario. Inicio conserva el saludo personalizado breve, la tarjeta `Nueva captura` y el historial. El formulario conserva la cabecera `Nueva captura`, el paso `Contexto` y las etiquetas persistentes; se retiró también `Datos de la captura`. Revisión conserva el paso `Revisión` y el resumen con `Editar datos`. El CTA del formulario dice `Revisar datos`, coherente con la pantalla de destino.
+
+Cada vista mantiene un `h2` oculto visualmente para nombre accesible y foco al navegar. El espacio liberado acerca el contenido principal a la cabecera sin añadir texto decorativo. La tarjeta coral, la imagen y el historial mantienen su composición v0.6.
+
 ## Evolución v0.6 · marca adaptativa e historial breve
 
 El símbolo para interfaz ya no lleva una placa carbón. Hay una versión SVG transparente para superficies claras (`logo-capturer-ink-v06.svg`) y otra para superficies oscuras (`logo-capturer-light-v06.svg`); ambas simplifican la lista a dos checks para legibilidad a 32 px. El icono de launcher usa la composición completa sobre marfil (`icono-capturer-v06.svg`). Conservan el plano verde, la lista coral y la lente del icono anterior.

@@ -1,5 +1,9 @@
 # Interacciones, botones y acciones · contrato inicial
 
+## Etiquetas activas en v0.7
+
+Inicio muestra el saludo y una acción principal `Empezar captura`. En el formulario, `Revisar datos` valida la referencia y abre el resumen; el error dice `Escribe una referencia.` y enfoca el campo. Revisión conserva `Editar datos` y `Finalizar ejemplo`. Los títulos visuales redundantes se retiraron; los `h2` ocultos conservan nombre accesible y foco al cambiar de vista.
+
 ## Etiquetas activas en v0.5
 
 `Comenzar` abre el ingreso; `Ingresar` lleva a Inicio tras la validación ilustrativa; `Empezar captura` abre el formulario; `Continuar` muestra el resumen; `Editar datos` vuelve al formulario; `Finalizar ejemplo` muestra el cierre sin guardar; `Volver al inicio` reinicia el recorrido visible. La tarjeta de Inicio conserva su etiqueta y disposición v0.4 por decisión del usuario.
