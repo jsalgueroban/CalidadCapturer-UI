@@ -17,7 +17,7 @@ El repositorio se recibió vacío. Por instrucción del responsable, esta propue
 - [CONTRATO-VISUAL.md](CONTRATO-VISUAL.md): dirección A seleccionada, tokens candidatos, motion, assets y límites.
 - [prototype/](prototype/README.md): maqueta móvil navegable para revisar pantallas, estados y transiciones.
 - [concept/v05.html](concept/v05.html): lámina anterior con cuatro pantallas. [Entrega v0.5](docs/entrega-pulso-v05.md) documenta fotografía, icono, copy y verificación.
-- [concept/v06.html](concept/v06.html): lámina anterior con logo adaptativo e historial breve. [Entrega v0.6](docs/entrega-pulso-v06.md) documenta el cambio.
+- [concept/v06.html](concept/v06.html): enlace anterior que abre la lámina vigente. [Entrega v0.6](docs/entrega-pulso-v06.md) conserva la documentación de esa iteración; su lámina original permanece en el historial de Git.
 - [concept/v07.html](concept/v07.html): lámina vigente con jerarquía de copy depurada. [Entrega v0.7](docs/entrega-pulso-v07.md) explica la decisión.
 - [assets/icono-capturer-v06.svg](assets/icono-capturer-v06.svg): candidato de icono de app; las variantes transparentes para interfaz están en `assets/logo-capturer-ink-v06.svg` y `assets/logo-capturer-light-v06.svg`.
 - [assets/icono-capturer-evolucion-v05.svg](assets/icono-capturer-evolucion-v05.svg): evolución vectorial del icono anterior, aún candidata a aprobación.
