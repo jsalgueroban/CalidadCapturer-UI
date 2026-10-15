@@ -1,5 +1,11 @@
 # Contrato visual · Pulso de captura · v0.1
 
+## Evolución v0.6 · marca adaptativa e historial breve
+
+El símbolo para interfaz ya no lleva una placa carbón. Hay una versión SVG transparente para superficies claras (`logo-capturer-ink-v06.svg`) y otra para superficies oscuras (`logo-capturer-light-v06.svg`); ambas simplifican la lista a dos checks para legibilidad a 32 px. El icono de launcher usa la composición completa sobre marfil (`icono-capturer-v06.svg`). Conservan el plano verde, la lista coral y la lente del icono anterior.
+
+Inicio reemplaza la nota preparatoria por dos filas de inspecciones recientes con referencia, tipo, estado y fecha. La cabecera las identifica como **datos de ejemplo**. No se conectaron a datos reales ni se presentan como inspecciones de John. El estado se expresa con texto y punto, sin depender del color únicamente. La tarjeta principal se mantiene como en v0.4.
+
 ## Evolución v0.5 · fotografía real, marca heredada y copy
 
 La imagen de bienvenida y login procede de una fotografía documental de selección de banano, con atribución y licencia registradas en `docs/entrega-pulso-v05.md`. La tarjeta coral de Inicio conserva su composición v0.4 y su objeto; el usuario confirmó que esa pieza debía mantenerse. El archivo fotográfico generado v0.4 queda como antecedente, sin uso en el prototipo actual.

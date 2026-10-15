@@ -1,5 +1,9 @@
 # Catálogo inicial de componentes
 
+## Compuesto candidato v0.6 · historial reciente
+
+`RecentInspectionList` presenta como máximo tres filas con referencia, tipo, fecha y estado con texto. Debe recibir registros reales de la fuente aprobada antes de implementarse; el prototipo usa dos datos declarados de ejemplo. Incluye estados vacío, carga, error y contenido largo como parte del contrato pendiente de producto y datos. No incorpora acciones mudas: abrir una inspección requiere una ruta de detalle aprobada.
+
 ## Candidatos v0.4
 
 La variante cálida introduce `PhotoHero` sólo para entrada, `PrimaryActionCard` para iniciar captura, `StepMap` de dos pasos, `ReviewSummary`, `ActionDock` y `CompletionScene`. Son patrones del prototipo, no APIs compartidas. El botón principal conserva etiqueta y efecto explícitos en cada escena; el contraste entre carbón, coral y blanco se usa por jerarquía, sin transmitir estados sólo por color.

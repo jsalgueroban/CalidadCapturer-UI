@@ -16,9 +16,11 @@ El repositorio se recibió vacío. Por instrucción del responsable, esta propue
 - [referencias-aplicadas.md](referencias-aplicadas.md): consultas concretas a herramientas de la suite, adopciones y rechazos.
 - [CONTRATO-VISUAL.md](CONTRATO-VISUAL.md): dirección A seleccionada, tokens candidatos, motion, assets y límites.
 - [prototype/](prototype/README.md): maqueta móvil navegable para revisar pantallas, estados y transiciones.
-- [concept/v05.html](concept/v05.html): lámina actual con cuatro pantallas. [Entrega v0.5](docs/entrega-pulso-v05.md) documenta fotografía, icono, copy y verificación.
+- [concept/v05.html](concept/v05.html): lámina anterior con cuatro pantallas. [Entrega v0.5](docs/entrega-pulso-v05.md) documenta fotografía, icono, copy y verificación.
+- [concept/v06.html](concept/v06.html): lámina vigente con logo adaptativo e historial breve. [Entrega v0.6](docs/entrega-pulso-v06.md) documenta el cambio.
+- [assets/icono-capturer-v06.svg](assets/icono-capturer-v06.svg): candidato de icono de app; las variantes transparentes para interfaz están en `assets/logo-capturer-ink-v06.svg` y `assets/logo-capturer-light-v06.svg`.
 - [assets/icono-capturer-evolucion-v05.svg](assets/icono-capturer-evolucion-v05.svg): evolución vectorial del icono anterior, aún candidata a aprobación.
-- [assets/icono-pulso.svg](assets/icono-pulso.svg): concepto vectorial seleccionado para el prototipo, con variantes y exportaciones en `assets/`. El [boceto inicial](assets/icono-concepto.svg) se conserva para comparar la retirada del check.
+- [assets/icono-pulso.svg](assets/icono-pulso.svg): exploración vectorial inicial, conservada como antecedente junto al [boceto](assets/icono-concepto.svg).
 
 ## Estado y siguiente gate
 

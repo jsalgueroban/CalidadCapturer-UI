@@ -24,6 +24,12 @@ with open('assets/icono-capturer-evolucion-v05-1024.png', 'rb') as file:
     header = file.read(24)
 assert header[:8] == b'\x89PNG\r\n\x1a\n', 'Invalid v0.5 icon PNG'
 assert struct.unpack('>II', header[16:24]) == (1024, 1024), 'Wrong v0.5 icon size'
+for path in ('assets/logo-capturer-ink-v06.svg', 'assets/logo-capturer-light-v06.svg', 'assets/icono-capturer-v06.svg'):
+    ET.parse(path)
+with open('assets/icono-capturer-v06-1024.png', 'rb') as file:
+    header = file.read(24)
+assert header[:8] == b'\x89PNG\r\n\x1a\n', 'Invalid v0.6 icon PNG'
+assert struct.unpack('>II', header[16:24]) == (1024, 1024), 'Wrong v0.6 icon size'
 print(f'Verified {len(svg_files)} SVG and {len(png_files)} PNG assets at 1024x1024.')
 '@
     $validation | python -

@@ -1,5 +1,9 @@
 # Dirección visual · exploración 01
 
+## Evolución v0.6
+
+Se separaron icono de app y símbolo de interfaz: el primero usa fondo marfil; el segundo es transparente y tiene variantes para fondos claros y oscuros. En Inicio, la nota inferior fue sustituida por un historial corto con dos registros ilustrativos, claramente rotulados. La tarjeta coral y la fotografía documental se conservaron.
+
 ## Evolución v0.5
 
 Se mantiene la dirección A y la composición de la tarjeta coral de Inicio, confirmada por el usuario. La fotografía de apertura es ahora documental y acreditada; el icono deriva del símbolo anterior. La voz se acerca al usuario con un saludo ilustrativo para John y títulos que orientan las decisiones de captura y revisión. El contrato detallado está en `CONTRATO-VISUAL.md` y la procedencia en `docs/entrega-pulso-v05.md`.
