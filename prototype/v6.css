@@ -1,0 +1,24 @@
+/* v0.6 · marca sin placa y resumen ilustrativo de inspecciones */
+.studio-logo img, .welcome-brand img, .brand-mark img, .header-brand img, .complete-top img { border-radius: 0; }
+.studio-logo img { width: 34px; height: 34px; }
+.welcome-brand img { width: 32px; height: 32px; }
+.brand-mark img { width: 38px; height: 38px; }
+.header-brand img { width: 32px; height: 32px; }
+.complete-top img { width: 34px; height: 34px; }
+.recent-inspections { margin-top: 1.35rem; color: var(--ink); }
+.recent-heading { display: flex; align-items: baseline; justify-content: space-between; gap: .5rem; margin-bottom: .55rem; }
+.recent-heading h3 { margin: 0; font-size: .87rem; letter-spacing: -.025em; }
+.recent-heading > span { color: #656b65; font-size: .64rem; white-space: nowrap; }
+.recent-list { overflow: hidden; border: 1px solid #e6e6e0; border-radius: 13px; background: #fff; }
+.recent-row { display: flex; align-items: center; justify-content: space-between; gap: .5rem; min-height: 65px; padding: .65rem .8rem; }
+.recent-row + .recent-row { border-top: 1px solid #edeee9; }
+.recent-row-main { display: flex; align-items: center; gap: .65rem; min-width: 0; }
+.recent-row-main > div, .recent-row-meta { display: grid; gap: .18rem; }
+.recent-row-main strong { font-size: .76rem; line-height: 1.15; }
+.recent-row-main small, .recent-row-meta small { color: #636963; font-size: .66rem; line-height: 1.2; }
+.recent-row-meta { flex: 0 0 auto; text-align: right; }
+.recent-row-meta strong { font-size: .66rem; font-weight: 730; }
+.recent-status { flex: 0 0 9px; width: 9px; height: 9px; border-radius: 50%; }
+.recent-status.reviewed { background: var(--coral); }
+.recent-status.pending { border: 1.5px solid var(--coral); }
+@media (max-height: 740px) { .recent-inspections { margin-top: .85rem; }.recent-row { min-height: 57px; padding-top: .5rem; padding-bottom: .5rem; } }

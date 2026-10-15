@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Calidad Capturer</title>
+  <desc id="desc">Icono de aplicación con lista de verificación y lente sobre un fondo marfil.</desc>
+  <rect width="1024" height="1024" fill="#F5F4F1"/>
+  <g transform="translate(80 80) scale(9)">
+    <path d="M10 18a7 7 0 0 1 7-7h43v68H17a7 7 0 0 1-7-7V18Z" fill="#8EAE68"/>
+    <rect x="38" y="14" width="48" height="70" rx="8" fill="#F47E63"/>
+    <path d="m58 31 5 5 8-9m-13 20 5 5 8-9m-13 20 5 5 8-9" fill="none" stroke="#FFF9F3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="31" cy="55" r="18" fill="#F5F4F1" stroke="#232321" stroke-width="6"/>
+    <path d="m44 68 16 16" fill="none" stroke="#232321" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="31" cy="55" r="5" fill="#F47E63"/>
+  </g>
+</svg>

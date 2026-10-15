@@ -1,5 +1,30 @@
 # Catálogo inicial de componentes
 
+## Compuesto candidato v0.6 · historial reciente
+
+`RecentInspectionList` presenta como máximo tres filas con referencia, tipo, fecha y estado con texto. Debe recibir registros reales de la fuente aprobada antes de implementarse; el prototipo usa dos datos declarados de ejemplo. Incluye estados vacío, carga, error y contenido largo como parte del contrato pendiente de producto y datos. No incorpora acciones mudas: abrir una inspección requiere una ruta de detalle aprobada.
+
+## Candidatos v0.4
+
+La variante cálida introduce `PhotoHero` sólo para entrada, `PrimaryActionCard` para iniciar captura, `StepMap` de dos pasos, `ReviewSummary`, `ActionDock` y `CompletionScene`. Son patrones del prototipo, no APIs compartidas. El botón principal conserva etiqueta y efecto explícitos en cada escena; el contraste entre carbón, coral y blanco se usa por jerarquía, sin transmitir estados sólo por color.
+
+
+## Estado de la iteración v0.3
+
+Se retiran la **consola de foco** y la **escala gráfica** de v0.2: no comunicaban un dato ni una acción real. Se conservan el mapa de progreso de dos pasos, la barra contextual y la ficha de revisión con una composición más sobria. La lista de estados pasa a filas con título y descripción; la señal de color es secundaria. La navegación principal vuelve a una selección textual simple.
+
+
+## Patrones visibles en Pulso v0.2
+
+| Patrón | Decisión de composición | Acción y estado |
+| --- | --- | --- |
+| Consola de foco | Retícula y escala gráfica en una superficie de tinta; una sola acción cítrica | `Iniciar captura` abre el primer paso; foco y pulsación visibles |
+| Mapa de secuencia | Nodos numerados con conector y etiquetas persistentes | Paso activo, completado y próximo se distinguen por texto, forma y color |
+| Barra contextual | Acción primaria fija al pie del formulario; retorno en cabecera | `Continuar a revisión` valida, enfoca el campo con error y muestra su mensaje |
+| Ficha de revisión | Cabecera de registro, título y filas de lectura | `Confirmar demostración` y `Editar ejemplo` tienen distinta jerarquía |
+| Señal de estado | Tres columnas con regla de color, título y descripción | El texto mantiene el significado sin depender del color |
+
+
 Estructura candidata de la suite Banasan: **tokens → primitives → compuestos → feature → pantalla**. Se documenta intención y estados; las propiedades y la implementación se definirán contra el stack real después de seleccionar dirección.
 
 | Capa | Pieza candidata | Responsabilidad | Estados y accesibilidad |

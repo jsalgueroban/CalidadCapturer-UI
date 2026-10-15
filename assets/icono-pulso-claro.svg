@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Pulso de captura, variante clara</title>
+  <desc id="desc">Marco abierto en forma de C con punto de enfoque central sobre fondo claro.</desc>
+  <rect width="512" height="512" fill="#F7F8F3"/>
+  <path d="M359 142H212c-43 0-78 35-78 78v72c0 43 35 78 78 78h147" fill="none" stroke="#10283F" stroke-width="42" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="47" fill="#A6CF3B"/>
+  <circle cx="256" cy="256" r="18" fill="#10283F"/>
+</svg>

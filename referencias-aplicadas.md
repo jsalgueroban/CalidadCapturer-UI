@@ -1,5 +1,15 @@
 # Referencias aplicadas de la suite Banasan
 
+## Referencia visual aportada por el usuario · v0.4
+
+La imagen adjunta se usó sólo como referencia de **nivel de diseño**. Se adoptaron fotografía protagonista, una escena oscura y otra clara, acción cálida de alta visibilidad, objeto de producto y botones amplios. Se rechazaron contenido y activos de logística (camión, pickup/drop, vehículos, tarifas, mapa y tracking); no se copiaron marcas ni textos. La adaptación se comprueba en `concept/v04.html`, `prototype/v4.css` y las capturas `evidence/pulso-v04-*.png`. Los dos PNG de escena fueron generados para este repositorio con prompts documentados en `docs/entrega-pulso-v04.md`.
+
+
+## Crítica de v0.2 y efecto en v0.3
+
+La revisión con Banasan Product Design y las prohibiciones de `impeccable` detectó cuatro rasgos visibles de plantilla generada: rótulos en mayúsculas sobre cada bloque, numeración ornamental, gran superficie oscura con retícula sin función y texto promocional alrededor de una app operativa. Se retiraron de `prototype/index.html`. Banasan Frontend conservó el flujo y el manejo de foco/errores; UI Engineering conservó un primario por contexto y la barra contextual. La identidad ahora depende de jerarquía, contenido y una pequeña aplicación del acento, no de una escena decorativa. No se incorporó otra librería ni se tomaron pantallas del proyecto local como evidencia.
+
+
 Consulta realizada el 15 de octubre de 2026. Estas fuentes son apoyo de diseño, no autoridad de producto ni identidad aprobada.
 
 | Fuente / operación | Resultado observado | Decisión que cambió |
@@ -10,6 +20,7 @@ Consulta realizada el 15 de octubre de 2026. Estas fuentes son apoyo de diseño,
 | Awesome DESIGN.md: `apple/DESIGN.md` | Referencia de jerarquía, contenido protagonista y poco chrome; el archivo describe sobre todo marketing de Apple. | Se adopta la contención de controles. Se descartan fotografía de producto, colores, tipografía y assets de Apple como identidad de Capturer. |
 | Awesome DESIGN.md: `linear.app/DESIGN.md` | Acento usado con moderación y superficies de herramienta densas. | Se refuerza la reserva del acento para acción, selección y estado; no se copia el oscuro por defecto ni la marca Linear. |
 | Emil Design Engineering: marco de decisión de animación | Pide evaluar frecuencia y propósito antes del timing; recomienda movimiento breve en UI repetida. | La composición del icono pasa a primera presentación; navegación frecuente se limita a 150–250 ms y pulsación a 100–160 ms. |
+| Impeccable, `bolder` y `animate`, aplicado al prototipo v0.2 | La crítica señaló composición predecible, jerarquía plana y movimiento sin una firma específica. | Se sustituyó la tarjeta genérica por una consola de foco; el mapa de secuencia y la barra contextual ordenan captura y revisión. Se mantuvieron los tokens documentados; la retícula se compone al entrar y respeta movimiento reducido. |
 
 ## Crítica del boceto actual
 
@@ -17,7 +28,7 @@ El marco, punto y check comunican captura y comprobación, pero el check puede l
 
 ## Capacidades consideradas y descartadas en esta fase
 
-- **Impeccable:** útil para criticar una superficie ejecutable; el repositorio aún no contiene pantallas o componentes implementados, de modo que no se le atribuye una auditoría visual.
+- **Impeccable:** aplicado después de contar con una superficie ejecutable en la iteración v0.2; la crítica y las decisiones están registradas arriba y en `CONTRATO-VISUAL.md`.
 - **Bencho:** catálogo React web; no hay control concreto confirmado ni runtime web para adaptar. No se inspeccionó un bloque.
 - **Liquid Glass:** sólo hipótesis del territorio C. No se instaló motor ni se promete material nativo fuera de iOS.
 

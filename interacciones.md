@@ -1,5 +1,30 @@
 # Interacciones, botones y acciones · contrato inicial
 
+## Etiquetas activas en v0.7
+
+Inicio muestra el saludo y una acción principal `Empezar captura`. En el formulario, `Revisar datos` valida la referencia y abre el resumen; el error dice `Escribe una referencia.` y enfoca el campo. Revisión conserva `Editar datos` y `Finalizar ejemplo`. Los títulos visuales redundantes se retiraron; los `h2` ocultos conservan nombre accesible y foco al cambiar de vista.
+
+## Etiquetas activas en v0.5
+
+`Comenzar` abre el ingreso; `Ingresar` lleva a Inicio tras la validación ilustrativa; `Empezar captura` abre el formulario; `Continuar` muestra el resumen; `Editar datos` vuelve al formulario; `Finalizar ejemplo` muestra el cierre sin guardar; `Volver al inicio` reinicia el recorrido visible. La tarjeta de Inicio conserva su etiqueta y disposición v0.4 por decisión del usuario.
+
+## Secuencia ilustrativa v0.4
+
+`Comenzar` abre el login; `Ingresar` valida campos de la maqueta y entra a Inicio; `Empezar captura` abre Contexto; `Continuar` valida la referencia y abre Revisión; `Terminar recorrido` muestra un cierre explícito sin guardar información; `Volver al inicio` retorna al trabajo. Salir desde Perfil limpia los campos y vuelve a la bienvenida. La composición de entrada y cierre nunca retrasa la disponibilidad del botón y desaparece con movimiento reducido.
+
+
+## Recorrido del prototipo v0.2
+
+| Vista | Acción dominante | Acción secundaria | Transición |
+| --- | --- | --- | --- |
+| Inicio | `Iniciar captura` dentro de la consola | Abrir perfil o cambiar sección | El foco gráfico se compone al entrar; abre Contexto |
+| Contexto | `Continuar a revisión` en barra fija | Volver al inicio desde cabecera | Validación junto al campo y foco en el error; abre Revisión |
+| Revisión | `Confirmar demostración` | `Editar ejemplo` | Confirmar vuelve a Inicio con aviso; editar conserva valores |
+| Perfil | `Cerrar sesión` | Volver | Limpia campos ilustrativos y vuelve a ingreso |
+
+El mapa visual 01–02 describe exclusivamente el ejemplo navegable; no fija el número de pasos del producto final. Las transiciones se pueden interrumpir y desaparecen con reducción de movimiento.
+
+
 Las acciones siguientes son patrones de experiencia, no permisos ni funciones de negocio confirmadas. Cada pantalla futura debe completar recurso, autorización, precondición, efecto local, efecto remoto y estado posterior. La API conserva la autoridad de autorización.
 
 ## Jerarquía de botones

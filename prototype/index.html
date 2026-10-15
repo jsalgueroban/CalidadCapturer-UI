@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#232321" />
+    <title>Calidad Capturer · Pulso de captura</title>
+    <link rel="icon" href="../assets/icono-capturer-v06.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="v3.css" />
+    <link rel="stylesheet" href="v4.css" />
+    <link rel="stylesheet" href="v5.css" />
+    <link rel="stylesheet" href="v6.css" />
+    <link rel="stylesheet" href="v7.css" />
+    <script src="app.js?v=07" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#app-content">Saltar al contenido</a>
+    <div class="studio-shell">
+      <aside class="studio-panel" aria-label="Ficha de la propuesta">
+        <div class="studio-logo"><img src="../assets/logo-capturer-light-v06.svg" alt="" /> Calidad Capturer</div>
+        <div class="studio-summary"><span>Propuesta móvil · v0.7</span><h1>Cada captura cuenta.</h1><p>Una evolución del símbolo original para registrar y revisar con claridad.</p></div>
+        <div class="studio-index"><span>Recorrido</span><p>Bienvenida</p><p>Ingreso</p><p>Inicio</p><p>Captura</p><p>Revisión y cierre</p></div>
+        <div class="studio-footer"><span class="demo-badge">PROTOTIPO</span><p>Sin autenticación ni guardado real.</p></div>
+      </aside>
+
+      <main id="app-content" class="preview-area" tabindex="-1">
+        <div class="preview-topline">
+          <span>Vista interactiva</span><span>Pulso de captura</span>
+        </div>
+        <div class="device-wrap">
+          <div class="device" aria-label="Prototipo de aplicación móvil">
+            <div class="device-island" aria-hidden="true"></div>
+            <div class="device-screen">
+              <div class="statusbar" aria-hidden="true">
+                <span>9:41</span><span>●●● ▰</span>
+              </div>
+
+              <section id="screen-welcome" class="screen screen-welcome is-active" aria-labelledby="welcome-title">
+                <div class="welcome-photo"><img src="../assets/welcome-documentary-v05.jpg" alt="Trabajadoras seleccionan y limpian bananos en un área de empaque" /><span class="photo-credit">Foto: David Brossard · CC BY-SA 2.0</span></div>
+                <div class="welcome-content"><span class="welcome-brand"><img src="../assets/logo-capturer-ink-v06.svg" alt="" /> Calidad Capturer</span><h2 id="welcome-title">La calidad empieza aquí.</h2><p>Registra lo que observas en cada captura.</p><button type="button" class="button button-dark full-width" data-screen="login">Comenzar <span aria-hidden="true">→</span></button></div>
+              </section>
+
+              <section
+                id="screen-login"
+                class="screen screen-login"
+                aria-labelledby="login-title"
+                hidden
+              >
+                <div class="login-brand">
+                  <div class="brand-mark">
+                    <img src="../assets/logo-capturer-light-v06.svg" alt="" />
+                  </div>
+                  <span>CALIDAD<br />CAPTURER</span>
+                </div>
+                <div class="login-content">
+                  <h2 id="login-title">Inicia sesión</h2>
+                  <p>Tu próxima captura te espera.</p>
+                  <form id="login-form" novalidate>
+                    <div class="field-group">
+                      <label for="email">Correo de acceso</label>
+                      <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        autocomplete="username"
+                        inputmode="email"
+                        placeholder="nombre@empresa.com"
+                        required
+                        aria-describedby="email-error"
+                      />
+                      <span
+                        class="field-error"
+                        id="email-error"
+                        aria-live="polite"
+                      ></span>
+                    </div>
+                    <div class="field-group">
+                      <label for="password">Contraseña</label>
+                      <div class="password-wrap">
+                        <input
+                          id="password"
+                          name="password"
+                          type="password"
+                          autocomplete="current-password"
+                          placeholder="Ingresa tu contraseña"
+                          required
+                          aria-describedby="password-error"
+                        /><button
+                          type="button"
+                          id="toggle-password"
+                          class="inline-control"
+                          aria-label="Mostrar contraseña"
+                          aria-pressed="false"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <span
+                        class="field-error"
+                        id="password-error"
+                        aria-live="polite"
+                      ></span>
+                    </div>
+                    <button
+                      type="submit"
+                      class="button button-primary login-submit"
+                    >
+                      <span>Ingresar</span><span aria-hidden="true">↗</span>
+                    </button>
+                  </form>
+                  <p class="login-note">
+                    Demostración: cualquier correo válido y contraseña permiten
+                    explorar el prototipo.
+                  </p>
+                </div>
+                <div class="login-bottom">Prototipo de identidad móvil</div>
+              </section>
+
+              <section
+                id="screen-home"
+                class="screen screen-app"
+                aria-labelledby="home-title"
+                hidden
+              >
+                <header class="app-header">
+                  <div class="header-brand">
+                    <img src="../assets/logo-capturer-light-v06.svg" alt="" /><span
+                      >CAPTURER</span
+                    >
+                  </div>
+                  <button
+                    class="icon-button"
+                    id="open-profile"
+                    type="button"
+                    aria-label="Abrir perfil"
+                  >
+                    <span aria-hidden="true">JS</span>
+                  </button>
+                </header>
+                <div class="app-scroll home-scroll">
+                  <div class="home-greeting"><span>Hola de nuevo, John</span><h2 id="home-title" class="visually-hidden">Inicio</h2></div>
+                  <section class="work-action" aria-labelledby="new-capture-title">
+                    <div class="work-action-heading"><h3 id="new-capture-title">Nueva captura</h3><span class="work-action-icon" aria-hidden="true">↗</span></div>
+                    <p>Empieza un registro y revisa sus datos antes de terminar.</p>
+                    <img class="work-action-image" src="../assets/banana-box-cutout-v04.png" alt="" />
+                    <button id="start-capture" class="button button-dark full-width" type="button">Empezar captura <span aria-hidden="true">→</span></button>
+                  </section>
+                  <section class="recent-inspections" aria-labelledby="recent-inspections-title"><div class="recent-heading"><h3 id="recent-inspections-title">Últimas inspecciones</h3><span>Datos de ejemplo</span></div><div class="recent-list"><article class="recent-row"><div class="recent-row-main"><span class="recent-status reviewed" aria-hidden="true"></span><div><strong>INS-024</strong><small>Recepción de banano</small></div></div><div class="recent-row-meta"><strong>Revisada</strong><small>Hoy · 09:41</small></div></article><article class="recent-row"><div class="recent-row-main"><span class="recent-status pending" aria-hidden="true"></span><div><strong>INS-023</strong><small>Control de calidad</small></div></div><div class="recent-row-meta"><strong>En curso</strong><small>Ayer · 15:22</small></div></article></div></section>
+                </div>
+                <nav class="bottom-nav" aria-label="Navegación principal">
+                  <button
+                    type="button"
+                    class="nav-item is-current"
+                    data-screen="home"
+                    aria-current="page"
+                  >
+                    <span aria-hidden="true">⌂</span><span>Inicio</span></button
+                  ><button type="button" class="nav-item" data-screen="capture">
+                    <span aria-hidden="true">◎</span
+                    ><span>Captura</span></button
+                  ><button
+                    type="button"
+                    class="nav-item"
+                    data-screen="components"
+                  >
+                    <span aria-hidden="true">▦</span><span>Elementos</span>
+                  </button>
+                </nav>
+              </section>
+
+              <section
+                id="screen-capture"
+                class="screen screen-app"
+                aria-labelledby="capture-title"
+                hidden
+              >
+                <header class="app-header">
+                  <button
+                    type="button"
+                    class="header-back"
+                    data-screen="home"
+                    aria-label="Volver a inicio"
+                  >
+                    ←</button
+                  ><span class="header-title">Nueva captura</span
+                  ><span class="header-spacer"></span>
+                </header>
+                <div class="app-scroll capture-scroll">
+                  <h2 id="capture-title" class="visually-hidden">Contexto de la captura</h2>
+                  <div class="sequence-map" aria-label="Paso 1 de 2"><div class="sequence-node active"><span>01</span><strong>Contexto</strong></div><div class="sequence-connector"></div><div class="sequence-node"><span>02</span><strong>Revisión</strong></div></div>
+                  <form id="capture-form" novalidate>
+                    <div class="field-group field-light">
+                      <label for="reference">Referencia <span class="field-qualifier">Obligatorio</span></label
+                      ><input
+                        id="reference"
+                        name="reference"
+                        type="text"
+                        placeholder="Ej. Registro 001"
+                        required
+                        aria-describedby="reference-error"
+                      /><span
+                        class="field-error"
+                        id="reference-error"
+                        aria-live="polite"
+                      ></span>
+                    </div>
+                    <div class="field-group field-light">
+                      <label for="note">Observación <span class="field-qualifier">Opcional</span></label
+                      ><textarea
+                        id="note"
+                        name="note"
+                        rows="4"
+                        placeholder="Añade una nota breve"
+                        aria-describedby="note-help"
+                      ></textarea
+                      ><span class="field-help" id="note-help"
+                        >Describe solo lo que ayude a identificarla.</span
+                      >
+                    </div>
+                  </form>
+                </div>
+                <div class="capture-action-dock"><button type="submit" form="capture-form" class="button button-dark full-width">Revisar datos <span aria-hidden="true">→</span></button></div>
+              </section>
+
+              <section
+                id="screen-review"
+                class="screen screen-app"
+                aria-labelledby="review-title"
+                hidden
+              >
+                <header class="app-header">
+                  <button
+                    type="button"
+                    class="header-back"
+                    data-screen="capture"
+                    aria-label="Volver a captura"
+                  >
+                    ←</button
+                  ><span class="header-title">Nueva captura</span
+                  ><span class="header-spacer"></span>
+                </header>
+                <div class="app-scroll">
+                  <h2 id="review-title" class="visually-hidden">Revisión de la captura</h2>
+                  <div class="sequence-map" aria-label="Paso 2 de 2"><div class="sequence-node done"><span>✓</span><strong>Contexto</strong></div><div class="sequence-connector filled"></div><div class="sequence-node active"><span>02</span><strong>Revisión</strong></div></div>
+                  <div class="review-card">
+                    <div class="review-card-header"><span>Tu captura</span><span>Sin guardar</span></div>
+                    <dl>
+                      <div>
+                        <dt>Referencia</dt>
+                        <dd id="review-reference">—</dd>
+                      </div>
+                      <div>
+                        <dt>Observación</dt>
+                        <dd id="review-note">Sin observación</dd>
+                      </div>
+                    </dl>
+                  </div>
+                  <div class="review-actions">
+                    <button
+                      type="button"
+                      class="button button-quiet full-width"
+                      data-screen="capture"
+                    >
+                      Editar datos
+                    </button>
+                  </div>
+                </div>
+                <div class="capture-action-dock"><button id="confirm-demo" type="button" class="button button-dark full-width">Finalizar ejemplo <span aria-hidden="true">→</span></button></div>
+              </section>
+
+              <section id="screen-complete" class="screen screen-complete" aria-labelledby="complete-title" hidden>
+                <div class="complete-top"><img src="../assets/logo-capturer-light-v06.svg" alt="" /><span>Calidad Capturer</span></div>
+                <div class="complete-content"><div class="complete-symbol" aria-hidden="true">✓</div><h2 id="complete-title">Así se completa una captura.</h2><p>Este ejemplo terminó. Los datos no se guardaron.</p></div>
+                <div class="complete-bottom"><button type="button" class="button button-coral full-width" data-screen="home">Volver al inicio <span aria-hidden="true">→</span></button></div>
+              </section>
+
+              <section
+                id="screen-components"
+                class="screen screen-app"
+                aria-labelledby="components-title"
+                hidden
+              >
+                <header class="app-header">
+                  <span class="header-title">Sistema visual</span
+                  ><span class="header-spacer"></span>
+                </header>
+                <div class="app-scroll">
+                  <h2 id="components-title" class="page-title">Elementos</h2>
+                  <p class="page-subtitle">Acciones y estados del prototipo.</p>
+                  <div class="component-section">
+                    <span class="eyebrow">Recorrido de captura</span>
+                    <div class="sequence-map component-sequence" aria-label="Secuencia de ejemplo"><div class="sequence-node done"><span>✓</span><strong>Contexto</strong></div><div class="sequence-connector filled"></div><div class="sequence-node active"><span>02</span><strong>Revisión</strong></div></div>
+                    <p class="component-help">La acción principal permanece al pie del formulario.</p>
+                  </div>
+                  <div class="component-section">
+                    <span class="eyebrow">Acciones</span
+                    ><button
+                      type="button"
+                      class="button button-dark full-width demo-button"
+                    >
+                      Acción primaria <span aria-hidden="true">↗</span></button
+                    ><button
+                      type="button"
+                      class="button button-outline full-width demo-button"
+                    >
+                      Acción secundaria</button
+                    ><button
+                      type="button"
+                      class="button button-quiet full-width demo-button"
+                    >
+                      Acción terciaria</button
+                    ><button
+                      type="button"
+                      class="button button-dark full-width"
+                      disabled
+                    >
+                      Acción no disponible
+                    </button>
+                  </div>
+                  <div class="component-section">
+                    <span class="eyebrow">Estados</span>
+                    <div class="chip-row">
+                      <span class="state-chip chip-success">✓ Confirmado</span
+                      ><span class="state-chip chip-pending">◌ Pendiente</span
+                      ><span class="state-chip chip-alert">! Atención</span>
+                    </div>
+                    <p class="component-help">
+                      La acción deshabilitada representa una condición aún no
+                      cumplida.
+                    </p>
+                  </div>
+                  <div class="component-section">
+                    <span class="eyebrow">Contenido y recuperación</span>
+                    <div class="state-example">
+                      <strong>Sin registros</strong>
+                      <p>
+                        Inicia una captura para ver contenido en esta sección.
+                      </p>
+                      <button
+                        type="button"
+                        class="text-action"
+                        data-screen="capture"
+                      >
+                        Iniciar captura →
+                      </button>
+                    </div>
+                    <div class="state-example">
+                      <strong>No se pudo cargar</strong>
+                      <p>Comprueba tu conexión e inténtalo de nuevo.</p>
+                      <button type="button" class="text-action demo-button">
+                        Reintentar →
+                      </button>
+                    </div>
+                    <div class="state-example">
+                      <strong>Acceso no disponible</strong>
+                      <p>Esta sección requiere una autorización adicional.</p>
+                    </div>
+                    <div class="state-example state-loading" role="status">
+                      <span class="skeleton-line"></span
+                      ><span class="skeleton-line short"></span
+                      ><span class="visually-hidden"
+                        >Cargando contenido de ejemplo</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <nav class="bottom-nav" aria-label="Navegación principal">
+                  <button type="button" class="nav-item" data-screen="home">
+                    <span aria-hidden="true">⌂</span><span>Inicio</span></button
+                  ><button type="button" class="nav-item" data-screen="capture">
+                    <span aria-hidden="true">◎</span
+                    ><span>Captura</span></button
+                  ><button
+                    type="button"
+                    class="nav-item is-current"
+                    data-screen="components"
+                    aria-current="page"
+                  >
+                    <span aria-hidden="true">▦</span><span>Elementos</span>
+                  </button>
+                </nav>
+              </section>
+
+              <section
+                id="screen-profile"
+                class="screen screen-app"
+                aria-labelledby="profile-title"
+                hidden
+              >
+                <header class="app-header">
+                  <button
+                    type="button"
+                    class="header-back"
+                    data-screen="home"
+                    aria-label="Volver a inicio"
+                  >
+                    ←</button
+                  ><span class="header-title">Perfil</span
+                  ><span class="header-spacer"></span>
+                </header>
+                <div class="app-scroll">
+                  <h2 id="profile-title" class="page-title">Perfil</h2>
+                  <div class="profile-card">
+                    <div class="profile-avatar">JS</div>
+                    <div>
+                      <strong>John</strong
+                      ><small>Cuenta de demostración</small>
+                    </div>
+                  </div>
+                  <button
+                    id="logout"
+                    type="button"
+                    class="button button-outline full-width logout-button"
+                  >
+                    Cerrar sesión <span aria-hidden="true">→</span>
+                  </button>
+                  <p class="profile-help">Al cerrar sesión volverás a la bienvenida.</p>
+                </div>
+              </section>
+              <div
+                id="toast"
+                class="toast"
+                role="status"
+                aria-live="polite"
+                hidden
+              ></div>
+            </div>
+            <div class="home-indicator" aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="preview-caption">
+          <span>◉</span> Pulso de captura
+          <span class="caption-separator">/</span> Prototipo navegable
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
