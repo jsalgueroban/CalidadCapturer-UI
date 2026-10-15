@@ -8,7 +8,7 @@ const loginForm = document.querySelector("#login-form");
 const captureForm = document.querySelector("#capture-form");
 const toast = document.querySelector("#toast");
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-let currentScreen = "login";
+let currentScreen = "welcome";
 let toastTimer;
 
 if (!sessionStorage.getItem("capturer-pulso-presented")) {
@@ -134,8 +134,7 @@ captureForm.addEventListener("submit", (event) => {
 });
 
 document.querySelector("#confirm-demo").addEventListener("click", () => {
-  showScreen("home");
-  showToast("Demostración completada. No se guardaron datos.");
+  showScreen("complete");
 });
 
 document.querySelector("#logout").addEventListener("click", () => {
@@ -143,7 +142,7 @@ document.querySelector("#logout").addEventListener("click", () => {
   captureForm.reset();
   for (const id of ["email", "password", "reference"])
     setFieldError(document.querySelector(`#${id}`), "");
-  showScreen("login");
+  showScreen("welcome");
 });
 
 document

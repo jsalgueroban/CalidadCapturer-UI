@@ -1,5 +1,10 @@
 # Referencias aplicadas de la suite Banasan
 
+## Referencia visual aportada por el usuario · v0.4
+
+La imagen adjunta se usó sólo como referencia de **nivel de diseño**. Se adoptaron fotografía protagonista, una escena oscura y otra clara, acción cálida de alta visibilidad, objeto de producto y botones amplios. Se rechazaron contenido y activos de logística (camión, pickup/drop, vehículos, tarifas, mapa y tracking); no se copiaron marcas ni textos. La adaptación se comprueba en `concept/v04.html`, `prototype/v4.css` y las capturas `evidence/pulso-v04-*.png`. Los dos PNG de escena fueron generados para este repositorio con prompts documentados en `docs/entrega-pulso-v04.md`.
+
+
 ## Crítica de v0.2 y efecto en v0.3
 
 La revisión con Banasan Product Design y las prohibiciones de `impeccable` detectó cuatro rasgos visibles de plantilla generada: rótulos en mayúsculas sobre cada bloque, numeración ornamental, gran superficie oscura con retícula sin función y texto promocional alrededor de una app operativa. Se retiraron de `prototype/index.html`. Banasan Frontend conservó el flujo y el manejo de foco/errores; UI Engineering conservó un primario por contexto y la barra contextual. La identidad ahora depende de jerarquía, contenido y una pequeña aplicación del acento, no de una escena decorativa. No se incorporó otra librería ni se tomaron pantallas del proyecto local como evidencia.

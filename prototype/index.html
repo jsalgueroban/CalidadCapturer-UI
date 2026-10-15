@@ -6,20 +6,21 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <meta name="theme-color" content="#10283f" />
+    <meta name="theme-color" content="#232321" />
     <title>Calidad Capturer · Pulso de captura</title>
-    <link rel="icon" href="../assets/icono-pulso.svg" type="image/svg+xml" />
+    <link rel="icon" href="../assets/icono-pulso-v04.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="v3.css" />
+    <link rel="stylesheet" href="v4.css" />
     <script src="app.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#app-content">Saltar al contenido</a>
     <div class="studio-shell">
       <aside class="studio-panel" aria-label="Ficha de la propuesta">
-        <div class="studio-logo"><img src="../assets/icono-pulso.svg" alt="" /> Calidad Capturer</div>
-        <div class="studio-summary"><span>Propuesta móvil · v0.3</span><h1>Registrar con claridad.</h1><p>Un recorrido para explorar ingreso, captura y revisión. Los datos de esta maqueta son ilustrativos.</p></div>
-        <div class="studio-index"><span>Recorrido</span><p>Ingreso</p><p>Inicio</p><p>Captura</p><p>Revisión</p><p>Elementos</p></div>
+        <div class="studio-logo"><img src="../assets/icono-pulso-v04.svg" alt="" /> Calidad Capturer</div>
+        <div class="studio-summary"><span>Propuesta móvil · v0.4</span><h1>Calidad en cada detalle.</h1><p>Fotografía, acción cálida y lectura precisa. Explora el recorrido con datos ilustrativos.</p></div>
+        <div class="studio-index"><span>Recorrido</span><p>Bienvenida</p><p>Ingreso</p><p>Inicio</p><p>Captura</p><p>Revisión y cierre</p></div>
         <div class="studio-footer"><span class="demo-badge">PROTOTIPO</span><p>Sin autenticación ni guardado real.</p></div>
       </aside>
 
@@ -35,14 +36,20 @@
                 <span>9:41</span><span>●●● ▰</span>
               </div>
 
+              <section id="screen-welcome" class="screen screen-welcome is-active" aria-labelledby="welcome-title">
+                <div class="welcome-photo"><img src="../assets/packing-editorial-v04.png" alt="Banano en un área de selección y empaque" /></div>
+                <div class="welcome-content"><span class="welcome-brand"><img src="../assets/icono-pulso-v04.svg" alt="" /> Calidad Capturer</span><h2 id="welcome-title">La calidad se ve en cada detalle.</h2><p>Un espacio para registrar, revisar y continuar el trabajo con claridad.</p><button type="button" class="button button-dark full-width" data-screen="login">Comenzar <span aria-hidden="true">→</span></button></div>
+              </section>
+
               <section
                 id="screen-login"
-                class="screen screen-login is-active"
+                class="screen screen-login"
                 aria-labelledby="login-title"
+                hidden
               >
                 <div class="login-brand">
                   <div class="brand-mark">
-                    <img src="../assets/icono-pulso.svg" alt="" />
+                    <img src="../assets/icono-pulso-v04.svg" alt="" />
                   </div>
                   <span>CALIDAD<br />CAPTURER</span>
                 </div>
@@ -118,7 +125,7 @@
               >
                 <header class="app-header">
                   <div class="header-brand">
-                    <img src="../assets/icono-pulso.svg" alt="" /><span
+                    <img src="../assets/icono-pulso-v04.svg" alt="" /><span
                       >CAPTURER</span
                     >
                   </div>
@@ -131,12 +138,12 @@
                     <span aria-hidden="true">JS</span>
                   </button>
                 </header>
-                <div class="app-scroll">
-                  <h2 id="home-title" class="page-title">Inicio</h2>
-                  <p class="page-subtitle">Tus registros, a mano.</p>
+                <div class="app-scroll home-scroll">
+                  <div class="home-greeting"><span>Hola de nuevo</span><h2 id="home-title" class="page-title">Captura con confianza.</h2><p class="page-subtitle">Tu espacio de trabajo está listo.</p></div>
                   <section class="work-action" aria-labelledby="new-capture-title">
-                    <div class="work-action-heading"><span class="work-action-icon" aria-hidden="true">＋</span><h3 id="new-capture-title">Nueva captura</h3></div>
-                    <p>Registra el contexto y revisa los datos antes de terminar.</p>
+                    <div class="work-action-heading"><h3 id="new-capture-title">Nueva captura</h3><span class="work-action-icon" aria-hidden="true">↗</span></div>
+                    <p>Empieza un registro y revisa sus datos antes de terminar.</p>
+                    <img class="work-action-image" src="../assets/banana-box-cutout-v04.png" alt="" />
                     <button id="start-capture" class="button button-dark full-width" type="button">Empezar captura <span aria-hidden="true">→</span></button>
                   </section>
                   <section class="activity-section" aria-labelledby="activity-title"><div class="section-heading"><h3 id="activity-title">Estados de ejemplo</h3><span>Demostración</span></div><div class="activity-row"><span class="activity-marker ready"></span><div><strong>Listo para revisar</strong><small>El registro tiene datos por confirmar</small></div></div><div class="activity-row"><span class="activity-marker pending"></span><div><strong>En progreso</strong><small>Hay trabajo pendiente</small></div></div><p class="activity-note">Estos estados muestran el lenguaje visual; no representan registros reales.</p></section>
@@ -259,21 +266,21 @@
                   </div>
                   <div class="review-actions">
                     <button
-                      id="confirm-demo"
-                      type="button"
-                      class="button button-dark full-width"
-                    >
-                      Confirmar demostración
-                      <span aria-hidden="true">✓</span></button
-                    ><button
                       type="button"
                       class="button button-quiet full-width"
                       data-screen="capture"
                     >
-                      Editar ejemplo
+                      Editar datos
                     </button>
                   </div>
                 </div>
+                <div class="capture-action-dock"><button id="confirm-demo" type="button" class="button button-dark full-width">Terminar recorrido <span aria-hidden="true">→</span></button></div>
+              </section>
+
+              <section id="screen-complete" class="screen screen-complete" aria-labelledby="complete-title" hidden>
+                <div class="complete-top"><img src="../assets/icono-pulso-v04.svg" alt="" /><span>Calidad Capturer</span></div>
+                <div class="complete-content"><div class="complete-symbol" aria-hidden="true">✓</div><h2 id="complete-title">Recorrido terminado.</h2><p>Exploraste cómo se registra y revisa una captura. Esta demostración no guardó datos.</p></div>
+                <div class="complete-bottom"><button type="button" class="button button-coral full-width" data-screen="home">Volver al inicio <span aria-hidden="true">→</span></button></div>
               </section>
 
               <section

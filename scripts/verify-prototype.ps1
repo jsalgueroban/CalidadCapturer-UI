@@ -9,8 +9,8 @@ try {
 import glob, os, struct, xml.etree.ElementTree as ET
 svg_files = glob.glob('assets/icono-pulso*.svg')
 png_files = glob.glob('assets/icono-pulso*-1024.png')
-assert len(svg_files) == 5, f'Expected 5 SVG variants, found {len(svg_files)}'
-assert len(png_files) == 5, f'Expected 5 PNG exports, found {len(png_files)}'
+assert len(svg_files) == 6, f'Expected 6 SVG variants, found {len(svg_files)}'
+assert len(png_files) == 6, f'Expected 6 PNG exports, found {len(png_files)}'
 for path in svg_files:
     ET.parse(path)
 for path in png_files:

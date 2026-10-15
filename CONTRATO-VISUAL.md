@@ -1,5 +1,15 @@
 # Contrato visual · Pulso de captura · v0.1
 
+## Exploración v0.4 · fotografía y contraste de escenas
+
+El usuario aportó una imagen de referencia para elevar el **nivel de acabado**, no para copiar su producto logístico. Se adoptaron fotografía protagonista, alternancia intencional de superficies oscuras y claras, una tarjeta cálida para la acción principal y botones de tacto amplio. Se descartaron camiones, mapa de seguimiento, precios, microtexto e iconografía de esa pieza. Las dos imágenes del prototipo son originales y se generaron para esta exploración.
+
+**Escenas:** bienvenida fotográfica → login con continuidad de la imagen → Inicio oscuro con acción coral y objeto de producto → captura sobre superficie neutra con progreso coral → revisión blanca de lectura → cierre oscuro con resultado explícito. El cierre dice que la demostración no guardó datos.
+
+**Tokens experimentales:** carbón `#232321`, coral `#F47E63`, superficie `#F5F4F1`, blanco `#FFFFFF`, separador `#DEDFDA`. Los controles de acción principal son pastillas; las tarjetas funcionales usan radios entre 11 y 17 px. La fotografía y el objeto se cargan como PNG locales; no son evidencia del producto real. El icono cálido `assets/icono-pulso-v04.svg` es una variante candidata, no una identidad aprobada.
+
+**Movimiento:** entrada y cambio de escena de 220 ms con opacidad y 8 px; el resultado de cierre se compone una vez en 350 ms. La preferencia de movimiento reducido elimina esas transiciones. El prototipo mantiene las mismas reglas ilustrativas de formulario, sin autenticación ni persistencia.
+
 ## Iteración v0.3 · herramienta de trabajo
 
 El usuario rechazó la v0.2 por percibirse generada y genérica. Se retiraron la retícula, la escala 00–100, los rótulos ornamentales, la consola oscura y los titulares promocionales. En móvil, el prototipo ocupa la pantalla completa; el marco de teléfono queda sólo en la vista de revisión de escritorio.

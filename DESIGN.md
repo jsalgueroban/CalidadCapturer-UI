@@ -1,5 +1,10 @@
 # Dirección visual · exploración 01
 
+## Referencia de calidad visual y exploración v0.4
+
+La imagen proporcionada por el usuario fija una aspiración de diseño: dirección de arte, fotografía contextual, profundidad controlada y ritmo entre pantallas, no la semántica de transporte que aparece en ella. La exploración v0.4 aplica esos principios a Calidad Capturer con dos assets originales de banano y una variante cálida del icono. Sigue en modo `redesign-in-progress`; el usuario aún debe valorar esta versión frente al uso real y aprobar identidad y contenido definitivos.
+
+
 ## Evolución de la dirección A · v0.3
 
 La selección de “Pulso de captura” se mantiene como nombre de exploración, pero la ejecución v0.2 fue rechazada por el usuario: la metáfora de instrumento se volvió decoración. La v0.3 concentra la marca en el icono y un acento funcional; presenta la captura como tarea, con etiquetas, progreso y acción persistente. La página de escritorio pasa de hero promocional a ficha de revisión. La comparación visual y el motivo del retiro están en `docs/entrega-pulso-v03.md`.

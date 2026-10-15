@@ -1,5 +1,10 @@
 # Interacciones, botones y acciones · contrato inicial
 
+## Secuencia ilustrativa v0.4
+
+`Comenzar` abre el login; `Ingresar` valida campos de la maqueta y entra a Inicio; `Empezar captura` abre Contexto; `Continuar` valida la referencia y abre Revisión; `Terminar recorrido` muestra un cierre explícito sin guardar información; `Volver al inicio` retorna al trabajo. Salir desde Perfil limpia los campos y vuelve a la bienvenida. La composición de entrada y cierre nunca retrasa la disponibilidad del botón y desaparece con movimiento reducido.
+
+
 ## Recorrido del prototipo v0.2
 
 | Vista | Acción dominante | Acción secundaria | Transición |
