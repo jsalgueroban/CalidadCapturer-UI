@@ -6,7 +6,7 @@ Propuesta exploratoria iniciada el 15 de octubre de 2026. Este repositorio conti
 
 La petición de producto confirma cuatro entregables: icono de app, identidad móvil, patrones de diseño y componentes. También pide definir botones y acciones desde el planteamiento, y estudiar transiciones al ingresar, iniciar sesión, salir y cambiar de vista. El estilo iOS es una referencia de comportamiento y materialidad, sujeto a adaptación a la identidad propia y a la plataforma real.
 
-El repositorio se recibió vacío. Por instrucción del responsable, esta propuesta no toma como fuente el código ni la documentación de la aplicación local. Por eso los recorridos concretos, actores, dispositivos y reglas operativas siguen como decisiones abiertas; ningún ejemplo de este paquete afirma un comportamiento funcional existente.
+El repositorio se recibió vacío. Por instrucción del responsable, esta propuesta no toma como fuente el código ni la documentación de la aplicación local. La única excepción posterior es el icono anterior, que el usuario pidió evolucionar como fuente de marca. Los recorridos concretos, actores, dispositivos y reglas operativas siguen como decisiones abiertas; ningún ejemplo de este paquete afirma un comportamiento funcional existente.
 
 ## Documentos
 
@@ -16,6 +16,8 @@ El repositorio se recibió vacío. Por instrucción del responsable, esta propue
 - [referencias-aplicadas.md](referencias-aplicadas.md): consultas concretas a herramientas de la suite, adopciones y rechazos.
 - [CONTRATO-VISUAL.md](CONTRATO-VISUAL.md): dirección A seleccionada, tokens candidatos, motion, assets y límites.
 - [prototype/](prototype/README.md): maqueta móvil navegable para revisar pantallas, estados y transiciones.
+- [concept/v05.html](concept/v05.html): lámina actual con cuatro pantallas. [Entrega v0.5](docs/entrega-pulso-v05.md) documenta fotografía, icono, copy y verificación.
+- [assets/icono-capturer-evolucion-v05.svg](assets/icono-capturer-evolucion-v05.svg): evolución vectorial del icono anterior, aún candidata a aprobación.
 - [assets/icono-pulso.svg](assets/icono-pulso.svg): concepto vectorial seleccionado para el prototipo, con variantes y exportaciones en `assets/`. El [boceto inicial](assets/icono-concepto.svg) se conserva para comparar la retirada del check.
 
 ## Estado y siguiente gate

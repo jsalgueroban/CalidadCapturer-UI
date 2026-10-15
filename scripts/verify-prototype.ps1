@@ -19,6 +19,11 @@ for path in png_files:
     assert header[:8] == b'\x89PNG\r\n\x1a\n', f'Invalid PNG: {path}'
     width, height = struct.unpack('>II', header[16:24])
     assert (width, height) == (1024, 1024), f'Wrong size: {path}'
+ET.parse('assets/icono-capturer-evolucion-v05.svg')
+with open('assets/icono-capturer-evolucion-v05-1024.png', 'rb') as file:
+    header = file.read(24)
+assert header[:8] == b'\x89PNG\r\n\x1a\n', 'Invalid v0.5 icon PNG'
+assert struct.unpack('>II', header[16:24]) == (1024, 1024), 'Wrong v0.5 icon size'
 print(f'Verified {len(svg_files)} SVG and {len(png_files)} PNG assets at 1024x1024.')
 '@
     $validation | python -

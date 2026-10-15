@@ -1,5 +1,9 @@
 # Dirección visual · exploración 01
 
+## Evolución v0.5
+
+Se mantiene la dirección A y la composición de la tarjeta coral de Inicio, confirmada por el usuario. La fotografía de apertura es ahora documental y acreditada; el icono deriva del símbolo anterior. La voz se acerca al usuario con un saludo ilustrativo para John y títulos que orientan las decisiones de captura y revisión. El contrato detallado está en `CONTRATO-VISUAL.md` y la procedencia en `docs/entrega-pulso-v05.md`.
+
 ## Referencia de calidad visual y exploración v0.4
 
 La imagen proporcionada por el usuario fija una aspiración de diseño: dirección de arte, fotografía contextual, profundidad controlada y ritmo entre pantallas, no la semántica de transporte que aparece en ella. La exploración v0.4 aplica esos principios a Calidad Capturer con dos assets originales de banano y una variante cálida del icono. Sigue en modo `redesign-in-progress`; el usuario aún debe valorar esta versión frente al uso real y aprobar identidad y contenido definitivos.

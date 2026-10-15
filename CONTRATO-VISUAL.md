@@ -1,5 +1,13 @@
 # Contrato visual · Pulso de captura · v0.1
 
+## Evolución v0.5 · fotografía real, marca heredada y copy
+
+La imagen de bienvenida y login procede de una fotografía documental de selección de banano, con atribución y licencia registradas en `docs/entrega-pulso-v05.md`. La tarjeta coral de Inicio conserva su composición v0.4 y su objeto; el usuario confirmó que esa pieza debía mantenerse. El archivo fotográfico generado v0.4 queda como antecedente, sin uso en el prototipo actual.
+
+El icono v0.5 se dibujó en SVG a partir de tres rasgos reconocibles del icono anterior: plano verde, lista de verificación naranja y lente. El fondo carbón y el coral lo integran con Pulso de captura. El original raster se guarda como `assets/referencia-icono-original.png` para comparar trazos y proporciones; no se tomaron pantallas del producto anterior como autoridad de UX.
+
+La voz se dirige al usuario: saludo ilustrativo “Hola de nuevo, John”, pregunta que abre la tarea y títulos de pasos en forma de decisiones. Cada vista conserva una acción principal. John es una persona de demostración; en producto el nombre debe venir del perfil autenticado. El formulario, autenticación y guardado siguen siendo demostrativos.
+
 ## Exploración v0.4 · fotografía y contraste de escenas
 
 El usuario aportó una imagen de referencia para elevar el **nivel de acabado**, no para copiar su producto logístico. Se adoptaron fotografía protagonista, alternancia intencional de superficies oscuras y claras, una tarjeta cálida para la acción principal y botones de tacto amplio. Se descartaron camiones, mapa de seguimiento, precios, microtexto e iconografía de esa pieza. Las dos imágenes del prototipo son originales y se generaron para esta exploración.

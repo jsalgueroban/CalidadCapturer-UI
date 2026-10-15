@@ -1,5 +1,9 @@
 # Interacciones, botones y acciones · contrato inicial
 
+## Etiquetas activas en v0.5
+
+`Comenzar` abre el ingreso; `Ingresar` lleva a Inicio tras la validación ilustrativa; `Empezar captura` abre el formulario; `Continuar` muestra el resumen; `Editar datos` vuelve al formulario; `Finalizar ejemplo` muestra el cierre sin guardar; `Volver al inicio` reinicia el recorrido visible. La tarjeta de Inicio conserva su etiqueta y disposición v0.4 por decisión del usuario.
+
 ## Secuencia ilustrativa v0.4
 
 `Comenzar` abre el login; `Ingresar` valida campos de la maqueta y entra a Inicio; `Empezar captura` abre Contexto; `Continuar` valida la referencia y abre Revisión; `Terminar recorrido` muestra un cierre explícito sin guardar información; `Volver al inicio` retorna al trabajo. Salir desde Perfil limpia los campos y vuelve a la bienvenida. La composición de entrada y cierre nunca retrasa la disponibilidad del botón y desaparece con movimiento reducido.
