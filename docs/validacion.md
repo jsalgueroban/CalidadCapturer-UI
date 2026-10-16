@@ -10,7 +10,9 @@ Comprobar en `prototype/`: bienvenida, ingreso, validación de correo/contraseñ
 
 Las capturas vigentes están en `evidence/pulso-v08-*.png`. Son evidencia del prototipo web, no sustituyen pruebas de la app Expo en dispositivo.
 
-La [matriz HU2654](recorridos-hu2654.md) se revisa como especificación de diseño. El prototipo v0.8 no demuestra el flujo de cinco cajas, bandeja, actividades ni los estados offline/calidad/transmisión. La aprobación de Producto y la validación nativa de estas superficies permanecen pendientes.
+La [matriz HU2654](recorridos-hu2654.md) se revisa como especificación de diseño, acompañada por el [tablero de siete vistas](../concept/hu2654.html). El tablero ilustra Contexto, una caja, Revisión, bandeja, recuperación, actividad y resultado oficial; no simula el recorrido completo ni demuestra persistencia real. El prototipo interactivo v0.8 conserva un ejemplo de dos pasos. La aprobación de Producto y la validación nativa de estas superficies permanecen pendientes.
+
+La [captura del tablero](../evidence/hu2654-board.png) es evidencia visual de las siete vistas. Se revisaron los tamaños de 320, 390, 768 y 1500 px sin desbordamiento horizontal del documento; la legibilidad y el tacto dentro de las vistas requieren hardware real.
 
 La revisión estática del icono a 32/64 px sobre papel y carbón está en [evidence/icon-size-review-32-64.png](../evidence/icon-size-review-32-64.png). El símbolo es reconocible en esa escala; el PNG de launcher conserva un fondo marfil opaco. Se requieren variantes raster transparentes para usos fuera del launcher y prueba de máscaras en iOS/Android antes de cerrar CA2.
 

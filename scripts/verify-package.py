@@ -12,7 +12,7 @@ manifest = json.loads((ROOT / 'handoff/manifest.json').read_text(encoding='utf-8
 assert manifest['version'] == '0.9.0'
 assert manifest['target'] == 'react-native-expo'
 
-paths = [manifest['tokens'], manifest['prototype'], manifest['visualBoard']]
+paths = [manifest['tokens'], manifest['prototype'], manifest['visualBoard'], manifest['hu2654Board']]
 paths += list(manifest['assets'].values()) + manifest['specifications']
 for relative in paths:
     assert (ROOT / relative).is_file(), f'Missing manifest file: {relative}'
@@ -41,14 +41,14 @@ class LocalReferences(HTMLParser):
                 self.paths.append(value.split('?')[0].split('#')[0])
 
 
-for relative in ('prototype/index.html', 'concept/index.html', 'concept/v08.html'):
+for relative in ('prototype/index.html', 'concept/index.html', 'concept/v08.html', 'concept/hu2654.html'):
     source = ROOT / relative
     parser = LocalReferences()
     parser.feed(source.read_text(encoding='utf-8-sig'))
     for link in parser.paths:
         assert (source.parent / link).is_file(), f'Broken HTML link: {relative} -> {link}'
 
-for relative in ('prototype/app.css', 'concept/board.css'):
+for relative in ('prototype/app.css', 'concept/board.css', 'concept/hu2654.css'):
     source = ROOT / relative
     for link in re.findall(r'url\(["\']?([^"\')]+)', source.read_text(encoding='utf-8-sig')):
         if link.startswith(('data:', 'http:', 'https:')):

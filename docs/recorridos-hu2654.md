@@ -1,7 +1,7 @@
 # HU2654 · Recorridos y estados móviles
 
 **Paquete:** Pulso de captura 0.9.0, propuesta para revisión de Producto.  
-**Fuente visual:** `DESIGN.md`, `handoff/tokens.ts` y prototipo v0.8.  
+**Fuente visual:** `DESIGN.md`, `handoff/tokens.ts`, prototipo v0.8 y [tablero de siete vistas](../concept/hu2654.html).
 **Autoridad funcional:** HU2623, HU2625, HU2632, HU2635, HU2638, HU2641 y HU2644 de Banasan Captur.  
 **Destino:** HU2653 implementa la presentación en React Native / Expo. Esta especificación no acredita implementación.
 
@@ -113,6 +113,6 @@ El copy final se valida con Producto y con el contrato efectivo. Los mensajes no
 3. Confirmar en la configuración publicada los nombres, unidades y visibilidad de medidas, reglas por referencia y disposición; la decisión CLSIEGEL sigue en HU2628/HU2635.
 4. Validar en teléfono y tableta reales el icono a 32/64 px, máscaras, Archivo Variable, contraste al sol, tamaño de texto, lector de pantalla, teclado, cámara y safe areas.
    La revisión estática del PNG a 32/64 px en fondo claro y oscuro conserva la silueta, pero el recurso de launcher incluye fondo marfil opaco; faltan variantes raster transparentes para usos de marca fuera del launcher. Los lockups SVG existentes sí son transparentes.
-5. El prototipo v0.8 conserva un ejemplo de dos pasos y no representa el recorrido completo de esta especificación. HU2653 debe consumir la versión aprobada de esta matriz, no inferir las cinco cajas desde ese ejemplo.
+5. El prototipo interactivo v0.8 conserva un ejemplo de dos pasos. El tablero v0.9 muestra siete vistas estáticas y una caja representativa; no simula la captura completa. HU2653 debe consumir la versión aprobada de esta matriz, no inferir las cinco cajas desde el ejemplo.
 
 **Trazabilidad:** HU2654 CA1–CA8; HU2653 consume el paquete; HU2632/2635/2638/2641/2644 conservan la lógica. `SELF`: slice de diseño y handoff con fuentes locales y autoridad funcional distribuida; delegar el contexto no ofrece beneficio independiente proporcional.

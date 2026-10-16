@@ -11,6 +11,7 @@ Paquete de diseño **Pulso de captura**, versión `0.9.0`, preparado para React 
 | Mapa de assets y estado de uso | [handoff/manifest.json](handoff/manifest.json) |
 | Estructura de pantallas, componentes y campos | [docs/estructura.md](docs/estructura.md) |
 | Recorrido Contexto → Cajas 1–5 → Revisión, bandeja, actividades y estados | [docs/recorridos-hu2654.md](docs/recorridos-hu2654.md) |
+| Tablero de siete vistas del recorrido HU2654 | [concept/hu2654.html](concept/hu2654.html) |
 | Acciones, estados, movimiento y toast | [docs/interacciones.md](docs/interacciones.md) |
 | Integración React Native / Expo | [docs/integracion-expo.md](docs/integracion-expo.md) |
 | Verificación y límites | [docs/validacion.md](docs/validacion.md) |
