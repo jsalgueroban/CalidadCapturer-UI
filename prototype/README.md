@@ -1,15 +1,7 @@
 # Prototipo navegable
 
-La versión vigente es **v0.8**: tipografía Archivo Variable local y jerarquía ampliada para títulos, campos, historial y acciones. `v8.css` contiene esta iteración; los estilos previos permanecen como historia incremental.
+Referencia interactiva de la propuesta Pulso de captura v0.8. Usa HTML, `app.css` y `app.js` sin dependencias. La app React Native / Expo consume la especificación y los tokens de `handoff/`; este prototipo sólo demuestra composición, textos y transiciones.
 
-Abrir `index.html` en un navegador o iniciar un servidor estático desde la raíz del repositorio:
+Desde la raíz del repositorio, ejecutar `python -m http.server 8765` y abrir `http://127.0.0.1:8765/prototype/`.
 
-```powershell
-python -m http.server 8765
-```
-
-Luego abrir `http://127.0.0.1:8765/prototype/`.
-
-Recorrido: **Comenzar** → completar un correo válido y cualquier contraseña → **Ingresar** → **Empezar captura** → escribir referencia → **Revisar datos** → **Finalizar ejemplo** → **Volver al inicio** → Perfil → **Cerrar sesión**. La pestaña **Elementos** muestra botones y estados. Los datos no salen del navegador ni se persisten.
-
-Este artefacto es una maqueta web móvil aislada. No es implementación Expo/React Native ni conexión con servicios reales.
+Recorrido: **Comenzar → Ingresar → Empezar captura → Revisar datos → Finalizar ejemplo → Volver al inicio**. El ingreso acepta un correo con formato válido y cualquier contraseña. La referencia es obligatoria en el ejemplo. La pestaña **Elementos** muestra estados y toast. Los datos no se autentican, guardan ni transmiten.

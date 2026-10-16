@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">Concepto de icono Calidad Capturer</title>
-  <desc id="desc">Marco de captura abierto en forma de C, punto de enfoque y verificación.</desc>
-  <rect width="512" height="512" rx="112" fill="#10283F"/>
-  <path d="M344 126H202c-42 0-76 34-76 76v108c0 42 34 76 76 76h142" fill="none" stroke="#F5F8F5" stroke-width="42" stroke-linecap="round"/>
-  <circle cx="256" cy="256" r="48" fill="#C7EB62"/>
-  <path d="m323 294 35 35 62-70" fill="none" stroke="#C7EB62" stroke-width="33" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

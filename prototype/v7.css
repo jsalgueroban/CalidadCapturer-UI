@@ -1,7 +1,0 @@
-/* v0.7 · jerarquía sin preguntas redundantes */
-.home-greeting { padding-top: 1.2rem; padding-bottom: 4.1rem; }
-.home-greeting > span { display: block; color: #e2e1dc; font-size: .86rem; font-weight: 640; letter-spacing: -.01em; }
-.work-action { margin-top: -2.65rem; }
-.capture-scroll .sequence-map, #screen-review .sequence-map { margin-top: .25rem; }
-#screen-review .review-card { margin-top: 1.15rem; }
-@media (max-height: 740px) { .home-greeting { padding-top: .95rem; padding-bottom: 3.7rem; }.work-action { margin-top: -2.35rem; } }

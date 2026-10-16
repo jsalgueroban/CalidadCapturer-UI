@@ -1,35 +1,32 @@
-# Calidad Capturer · nuevo frente UI/UX móvil
+# Calidad Capturer · identidad móvil
 
-Propuesta exploratoria iniciada el 15 de octubre de 2026. Este repositorio contiene el trabajo de identidad móvil; no es código de la aplicación ni una librería compartida.
+Paquete de diseño **Pulso de captura**, versión `0.8.0`, preparado para React Native / Expo. Define identidad, composición, tokens, componentes, textos y comportamiento del recorrido ilustrativo. El [prototipo web](prototype/) y el [tablero visual](concept/) sirven para revisar la intención; no son código de la app móvil.
 
-## Punto de partida
+## Punto de entrada
 
-La petición de producto confirma cuatro entregables: icono de app, identidad móvil, patrones de diseño y componentes. También pide definir botones y acciones desde el planteamiento, y estudiar transiciones al ingresar, iniciar sesión, salir y cambiar de vista. El estilo iOS es una referencia de comportamiento y materialidad, sujeto a adaptación a la identidad propia y a la plataforma real.
+| Necesidad | Fuente vigente |
+| --- | --- |
+| Dirección visual, voz e isotipo | [DESIGN.md](DESIGN.md) |
+| Tokens para importar en Expo | [handoff/tokens.ts](handoff/tokens.ts) |
+| Mapa de assets y estado de uso | [handoff/manifest.json](handoff/manifest.json) |
+| Estructura de pantallas, componentes y campos | [docs/estructura.md](docs/estructura.md) |
+| Acciones, estados, movimiento y toast | [docs/interacciones.md](docs/interacciones.md) |
+| Integración React Native / Expo | [docs/integracion-expo.md](docs/integracion-expo.md) |
+| Verificación y límites | [docs/validacion.md](docs/validacion.md) |
 
-El repositorio se recibió vacío. Por instrucción del responsable, esta propuesta no toma como fuente el código ni la documentación de la aplicación local. La única excepción posterior es el icono anterior, que el usuario pidió evolucionar como fuente de marca. Los recorridos concretos, actores, dispositivos y reglas operativas siguen como decisiones abiertas; ningún ejemplo de este paquete afirma un comportamiento funcional existente.
+`CONTRATO-VISUAL.md`, `componentes.md` e `interacciones.md` son referencias rápidas. Los contratos detallados viven en `docs/` y los valores importables en `handoff/`.
 
-## Documentos
+## Estado
 
-- [DESIGN.md](DESIGN.md): brief, territorios visuales, comparación y dirección recomendada para revisión.
-- [interacciones.md](interacciones.md): botones, acciones, estados y motion.
-- [componentes.md](componentes.md): catálogo inicial y frontera entre piezas.
-- [referencias-aplicadas.md](referencias-aplicadas.md): consultas concretas a herramientas de la suite, adopciones y rechazos.
-- [CONTRATO-VISUAL.md](CONTRATO-VISUAL.md): dirección A seleccionada, tokens candidatos, motion, assets y límites.
-- [Validación del paquete v0.7](docs/validacion-paquete-v07.md): diagnóstico anterior de nueve elementos; la tipografía evolucionó en v0.8 y las demás brechas siguen abiertas.
-- [prototype/](prototype/README.md): maqueta móvil navegable para revisar pantallas, estados y transiciones.
-- [concept/](concept/index.html): enlace estable a la lámina vigente.
-- [concept/v05.html](concept/v05.html): lámina anterior con cuatro pantallas. [Entrega v0.5](docs/entrega-pulso-v05.md) documenta fotografía, icono, copy y verificación.
-- [concept/v06.html](concept/v06.html): enlace anterior que abre la lámina vigente. [Entrega v0.6](docs/entrega-pulso-v06.md) conserva la documentación de esa iteración; su lámina original permanece en el historial de Git.
-- [concept/v07.html](concept/v07.html): lámina anterior con jerarquía de copy depurada. [Entrega v0.7](docs/entrega-pulso-v07.md) explica la decisión.
-- [concept/v08.html](concept/v08.html): lámina vigente con tipografía Archivo Variable y escala de lectura reforzada. [Entrega v0.8](docs/entrega-pulso-v08.md) registra roles, fuente y límites.
-- [assets/icono-capturer-v06.svg](assets/icono-capturer-v06.svg): candidato de icono de app; las variantes transparentes para interfaz están en `assets/logo-capturer-ink-v06.svg` y `assets/logo-capturer-light-v06.svg`.
-- [assets/icono-capturer-evolucion-v05.svg](assets/icono-capturer-evolucion-v05.svg): evolución vectorial del icono anterior, aún candidata a aprobación.
-- [assets/icono-pulso.svg](assets/icono-pulso.svg): exploración vectorial inicial, conservada como antecedente junto al [boceto](assets/icono-concepto.svg).
+La dirección visual A está seleccionada. El prototipo v0.8 es la referencia vigente de la propuesta. `handoff/tokens.ts` es la fuente de diseño de este repositorio. Antes de publicarlo en producción se requiere validación en hardware real. Autenticación, persistencia, permisos, sincronización y esquema de inspecciones pertenecen al contrato funcional de la app; aquí se representan con datos de demostración.
 
-## Estado y siguiente gate
+## Ejecutar y validar
 
-La dirección A fue seleccionada el 15/10/2026. El prototipo permanece en `redesign-in-progress`; la v0.8 aplica `improve` a su tipografía. El icono, la fuente, los tokens y las reglas funcionales todavía requieren revisión de producto antes de implementarse en la app.
+Desde la raíz:
 
-**Decisión de delegación:** `SELF`. Slice: análisis y paquete inicial de dirección visual en un repositorio vacío. La fuente operativa es la petición de este chat; el costo de trasladar ese contexto a un agente independiente no aportaría revisión material en esta fase. Se evaluará de nuevo al comparar prototipos o revisar una implementación extensa.
+```powershell
+python -m http.server 8765
+./scripts/verify-prototype.ps1
+```
 
-**Suite aplicada:** Dona Asistente para reconocer el frente y evitar duplicar tareas; Banasan Requirements Discovery, Product Design, UI Engineering, Frontend y Mobile para brief, modos de trabajo, acciones, componentes y límites de plataforma. Se consultaron UI/UX Pro Max, Awesome DESIGN.md y Emil Design Engineering; sus resultados y efecto están en `referencias-aplicadas.md`. La capacidad de diagnóstico `check_capabilities.py` no se encontró en la instalación consultada; no se declara ejecutada.
+Abrir `http://127.0.0.1:8765/prototype/` y `http://127.0.0.1:8765/concept/`. El paquete no instala dependencias ni modifica la app Expo. Las iteraciones anteriores permanecen en el historial de Git; el árbol actual contiene la propuesta vigente.
