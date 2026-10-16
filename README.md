@@ -15,18 +15,20 @@ El repositorio se recibió vacío. Por instrucción del responsable, esta propue
 - [componentes.md](componentes.md): catálogo inicial y frontera entre piezas.
 - [referencias-aplicadas.md](referencias-aplicadas.md): consultas concretas a herramientas de la suite, adopciones y rechazos.
 - [CONTRATO-VISUAL.md](CONTRATO-VISUAL.md): dirección A seleccionada, tokens candidatos, motion, assets y límites.
-- [Validación del paquete v0.7](docs/validacion-paquete-v07.md): cobertura de isotipo, fuentes, colores, diseño, transiciones, estructura, campos, acciones y toast, con brechas para integración.
+- [Validación del paquete v0.7](docs/validacion-paquete-v07.md): diagnóstico anterior de nueve elementos; la tipografía evolucionó en v0.8 y las demás brechas siguen abiertas.
 - [prototype/](prototype/README.md): maqueta móvil navegable para revisar pantallas, estados y transiciones.
+- [concept/](concept/index.html): enlace estable a la lámina vigente.
 - [concept/v05.html](concept/v05.html): lámina anterior con cuatro pantallas. [Entrega v0.5](docs/entrega-pulso-v05.md) documenta fotografía, icono, copy y verificación.
 - [concept/v06.html](concept/v06.html): enlace anterior que abre la lámina vigente. [Entrega v0.6](docs/entrega-pulso-v06.md) conserva la documentación de esa iteración; su lámina original permanece en el historial de Git.
-- [concept/v07.html](concept/v07.html): lámina vigente con jerarquía de copy depurada. [Entrega v0.7](docs/entrega-pulso-v07.md) explica la decisión.
+- [concept/v07.html](concept/v07.html): lámina anterior con jerarquía de copy depurada. [Entrega v0.7](docs/entrega-pulso-v07.md) explica la decisión.
+- [concept/v08.html](concept/v08.html): lámina vigente con tipografía Archivo Variable y escala de lectura reforzada. [Entrega v0.8](docs/entrega-pulso-v08.md) registra roles, fuente y límites.
 - [assets/icono-capturer-v06.svg](assets/icono-capturer-v06.svg): candidato de icono de app; las variantes transparentes para interfaz están en `assets/logo-capturer-ink-v06.svg` y `assets/logo-capturer-light-v06.svg`.
 - [assets/icono-capturer-evolucion-v05.svg](assets/icono-capturer-evolucion-v05.svg): evolución vectorial del icono anterior, aún candidata a aprobación.
 - [assets/icono-pulso.svg](assets/icono-pulso.svg): exploración vectorial inicial, conservada como antecedente junto al [boceto](assets/icono-concepto.svg).
 
 ## Estado y siguiente gate
 
-La dirección A fue seleccionada el 15/10/2026. El prototipo usa modo de trabajo `create` dentro de `redesign-in-progress`. El icono, los tokens y las reglas funcionales todavía requieren revisión de producto antes de implementarse en la app.
+La dirección A fue seleccionada el 15/10/2026. El prototipo permanece en `redesign-in-progress`; la v0.8 aplica `improve` a su tipografía. El icono, la fuente, los tokens y las reglas funcionales todavía requieren revisión de producto antes de implementarse en la app.
 
 **Decisión de delegación:** `SELF`. Slice: análisis y paquete inicial de dirección visual en un repositorio vacío. La fuente operativa es la petición de este chat; el costo de trasladar ese contexto a un agente independiente no aportaría revisión material en esta fase. Se evaluará de nuevo al comparar prototipos o revisar una implementación extensa.
 

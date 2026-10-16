@@ -30,7 +30,11 @@ with open('assets/icono-capturer-v06-1024.png', 'rb') as file:
     header = file.read(24)
 assert header[:8] == b'\x89PNG\r\n\x1a\n', 'Invalid v0.6 icon PNG'
 assert struct.unpack('>II', header[16:24]) == (1024, 1024), 'Wrong v0.6 icon size'
-print(f'Verified {len(svg_files)} SVG and {len(png_files)} PNG assets at 1024x1024.')
+with open('assets/fonts/Archivo-Latin-Variable.woff2', 'rb') as file:
+    assert file.read(4) == b'wOF2', 'Invalid Archivo WOFF2 font'
+with open('assets/fonts/OFL-Archivo.txt', encoding='utf-8') as file:
+    assert 'SIL OPEN FONT LICENSE' in file.read().upper(), 'Archivo license missing'
+print(f'Verified {len(svg_files)} SVG, {len(png_files)} PNG assets at 1024x1024, and the Archivo WOFF2 with license.')
 '@
     $validation | python -
     if ($LASTEXITCODE -ne 0) { throw 'Asset validation failed.' }
