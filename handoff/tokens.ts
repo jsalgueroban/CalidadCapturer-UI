@@ -1,4 +1,4 @@
-/** Pulso de captura 0.8.0. Valores de diseño para React Native / Expo. */
+/** Pulso de captura 0.9.0. Valores de diseño para React Native / Expo. */
 export const color = {
   ink: '#232321',
   inkSoft: '#5E625E',

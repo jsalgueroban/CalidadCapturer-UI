@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / 'handoff/manifest.json').read_text(encoding='utf-8'))
-assert manifest['version'] == '0.8.0'
+assert manifest['version'] == '0.9.0'
 assert manifest['target'] == 'react-native-expo'
 
 paths = [manifest['tokens'], manifest['prototype'], manifest['visualBoard']]

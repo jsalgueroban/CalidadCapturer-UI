@@ -1,6 +1,6 @@
 # Calidad Capturer · identidad móvil
 
-Paquete de diseño **Pulso de captura**, versión `0.8.0`, preparado para React Native / Expo. Define identidad, composición, tokens, componentes, textos y comportamiento del recorrido ilustrativo. El [prototipo web](prototype/) y el [tablero visual](concept/) sirven para revisar la intención; no son código de la app móvil.
+Paquete de diseño **Pulso de captura**, versión `0.9.0`, preparado para React Native / Expo. Define identidad, composición, tokens, componentes y la propuesta de recorridos y estados de HU2654. El [prototipo web](prototype/) y el [tablero visual](concept/) muestran la dirección visual v0.8; su captura de dos pasos sigue siendo ilustrativa y no representa la inspección completa de cinco cajas.
 
 ## Punto de entrada
 
@@ -10,6 +10,7 @@ Paquete de diseño **Pulso de captura**, versión `0.8.0`, preparado para React 
 | Tokens para importar en Expo | [handoff/tokens.ts](handoff/tokens.ts) |
 | Mapa de assets y estado de uso | [handoff/manifest.json](handoff/manifest.json) |
 | Estructura de pantallas, componentes y campos | [docs/estructura.md](docs/estructura.md) |
+| Recorrido Contexto → Cajas 1–5 → Revisión, bandeja, actividades y estados | [docs/recorridos-hu2654.md](docs/recorridos-hu2654.md) |
 | Acciones, estados, movimiento y toast | [docs/interacciones.md](docs/interacciones.md) |
 | Integración React Native / Expo | [docs/integracion-expo.md](docs/integracion-expo.md) |
 | Verificación y límites | [docs/validacion.md](docs/validacion.md) |
@@ -18,7 +19,7 @@ Paquete de diseño **Pulso de captura**, versión `0.8.0`, preparado para React 
 
 ## Estado
 
-La dirección visual A está seleccionada. El prototipo v0.8 es la referencia vigente de la propuesta. `handoff/tokens.ts` es la fuente de diseño de este repositorio. Antes de publicarlo en producción se requiere validación en hardware real. Autenticación, persistencia, permisos, sincronización y esquema de inspecciones pertenecen al contrato funcional de la app; aquí se representan con datos de demostración.
+La dirección visual A está seleccionada. El prototipo v0.8 es la referencia visual; la matriz HU2654 de v0.9.0 está propuesta para revisión de Producto. `handoff/tokens.ts` es la fuente de diseño de este repositorio. Antes de aprobar el paquete se requiere validar estados con Producto y revisar la identidad en hardware real. Autenticación, persistencia, permisos, sincronización y esquema de inspecciones pertenecen al contrato funcional de la app; aquí se representan con datos de demostración.
 
 ## Ejecutar y validar
 

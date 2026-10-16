@@ -1,6 +1,6 @@
 # Dirección visual · Pulso de captura
 
-**Versión:** 0.8.0 · **Plataforma destino:** React Native / Expo, iOS y Android · **Modo:** `redesign-in-progress`.
+**Versión de paquete:** 0.9.0 · **Referencia visual:** prototipo v0.8 · **Plataforma destino:** React Native / Expo, iOS y Android · **Modo:** `redesign-in-progress`.
 
 ## Idea rectora
 
@@ -33,7 +33,7 @@ Los valores y escalas adicionales están en [handoff/tokens.ts](handoff/tokens.t
 
 - Bienvenida: fotografía protagonista, marca compacta, promesa breve y una sola acción.
 - Inicio: saludo personalizable, tarjeta coral de nueva captura y lista corta de inspecciones recientes. Las filas de ejemplo no simulan navegación a un detalle inexistente.
-- Captura: cabecera simple, mapa de dos pasos **del ejemplo**, etiquetas persistentes y acción primaria al pie.
+- Captura: el prototipo enseña un ejemplo de dos pasos. El recorrido de HU2654 usa Contexto → Cajas 1–5 → Revisión, según [su especificación](docs/recorridos-hu2654.md).
 - Revisión: ficha de lectura, estado explícito «Sin guardar», edición secundaria y finalización ilustrativa.
 - Cierre: resultado directo y salida al inicio; no afirma guardado ni transmisión.
 - Navegación inferior sólo en vistas principales; retorno en cabecera dentro del flujo.
@@ -46,4 +46,4 @@ Entrada/cambio de escena: 220 ms, opacidad y desplazamiento vertical de 8 px. Ci
 
 ## Frontera
 
-Este documento decide la apariencia de la propuesta. Contrato funcional, permisos, manejo offline y capacidades de dispositivo se validan con la app. La traducción a primitives nativas conserva jerarquía, accesibilidad y estados, sin trasladar CSS o DOM a React Native.
+Este documento decide la apariencia de la propuesta. La matriz de pantallas y estados de HU2654 se propone en [docs/recorridos-hu2654.md](docs/recorridos-hu2654.md). Contrato funcional, permisos, manejo offline y capacidades de dispositivo se validan con la app. La traducción a primitives nativas conserva jerarquía, accesibilidad y estados, sin trasladar CSS o DOM a React Native.

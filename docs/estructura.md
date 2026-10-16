@@ -1,6 +1,6 @@
 # Estructura de interfaz
 
-**Alcance:** recorrido visible de la propuesta v0.8. Los nombres son responsabilidades de diseño, no imports existentes en la app.
+**Alcance:** recorrido visible del prototipo v0.8. El recorrido funcional propuesto para HU2654 está en [recorridos-hu2654.md](recorridos-hu2654.md). Los nombres son responsabilidades de diseño, no imports existentes en la app.
 
 ## Mapa de pantallas
 

@@ -10,6 +10,10 @@ Comprobar en `prototype/`: bienvenida, ingreso, validación de correo/contraseñ
 
 Las capturas vigentes están en `evidence/pulso-v08-*.png`. Son evidencia del prototipo web, no sustituyen pruebas de la app Expo en dispositivo.
 
+La [matriz HU2654](recorridos-hu2654.md) se revisa como especificación de diseño. El prototipo v0.8 no demuestra el flujo de cinco cajas, bandeja, actividades ni los estados offline/calidad/transmisión. La aprobación de Producto y la validación nativa de estas superficies permanecen pendientes.
+
+La revisión estática del icono a 32/64 px sobre papel y carbón está en [evidence/icon-size-review-32-64.png](../evidence/icon-size-review-32-64.png). El símbolo es reconocible en esa escala; el PNG de launcher conserva un fondo marfil opaco. Se requieren variantes raster transparentes para usos fuera del launcher y prueba de máscaras en iOS/Android antes de cerrar CA2.
+
 **Comprobación de esta entrega:** puerta automatizada aprobada; a 390 × 844 px el prototipo cargó Archivo y la fotografía, sin desbordamiento horizontal. El recorrido llegó de Bienvenida a Cierre. El ingreso vacío mostró los dos errores; la referencia vacía mostró «Escribe una referencia.»; la revisión presentó «Lote 042» y «Empaque correcto». El tablero conservó sus cuatro vistas vigentes.
 
 ## Criterios antes de producción

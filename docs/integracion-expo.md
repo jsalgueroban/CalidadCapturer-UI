@@ -17,7 +17,7 @@ El PNG de icono y las imágenes raster pueden ser recursos estáticos de React N
 
 ## Contrato funcional por cerrar
 
-Antes de conectar el flujo se necesitan: fuente de identidad/sesión; entidad real de captura e inspección; reglas de campos; destinos de navegación; permisos por acción; comportamiento al salir con trabajo pendiente; política offline; guardado local, envío, reintento y sincronización; estados vacíos y de error por endpoint. Este paquete no fija esos contratos ni declara implementada ninguna de esas capacidades.
+La [matriz HU2654](recorridos-hu2654.md) define la presentación propuesta para Contexto, Cajas 1–5, Revisión, bandeja y actividades. Antes de conectarla se necesitan: fuente de identidad/sesión; entidad real de captura e inspección; reglas de campos; destinos de navegación; permisos por acción; comportamiento al salir con trabajo pendiente; política offline; guardado local, envío, reintento y sincronización; estados vacíos y de error por endpoint. Este paquete no fija esos contratos ni declara implementada ninguna de esas capacidades.
 
 ## Compatibilidad
 
