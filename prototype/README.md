@@ -1,5 +1,7 @@
 # Prototipo navegable
 
+La versión vigente es **v0.8**: tipografía Archivo Variable local y jerarquía ampliada para títulos, campos, historial y acciones. `v8.css` contiene esta iteración; los estilos previos permanecen como historia incremental.
+
 Abrir `index.html` en un navegador o iniciar un servidor estático desde la raíz del repositorio:
 
 ```powershell

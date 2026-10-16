@@ -1,4 +1,10 @@
-# Contrato visual · Pulso de captura · v0.1
+# Contrato visual · Pulso de captura · v0.8
+
+## Evolución v0.8 · voz tipográfica
+
+Archivo Variable sustituye la pila de sistema del prototipo como **candidata** de identidad móvil. Los titulares usan un ancho ligeramente compacto y peso firme; etiquetas, valores y acciones ganan tamaño y separación de roles. La fuente WOFF2 se distribuye localmente con su licencia OFL. [Entrega v0.8](docs/entrega-pulso-v08.md) especifica los roles y su procedencia. La composición y las acciones de v0.7 siguen vigentes; la tipografía final requiere revisión en dispositivos y aprobación de Producto.
+
+La lectura vigente es la evolución tipográfica v0.8, la composición v0.7, la paleta coral/carbón de v0.4 y la marca adaptativa v0.6. Las secciones v0.1–v0.3 conservan decisiones históricas y no definen tokens actuales. La [validación de los nueve elementos del paquete](docs/validacion-paquete-v07.md) distingue lo propuesto de lo pendiente para integración.
 
 ## Evolución v0.7 · títulos que orientan sin repetir
 

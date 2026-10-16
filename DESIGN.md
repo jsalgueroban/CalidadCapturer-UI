@@ -1,5 +1,9 @@
 # Dirección visual · exploración 01
 
+## Evolución v0.8 · tipografía
+
+La observación del usuario sobre letras poco expresivas se resolvió en el prototipo con Archivo Variable local y una escala de lectura mayor. Se conservan la fotografía, la tarjeta de Inicio y el flujo v0.7. La dirección, los roles tipográficos y los límites de validación están en [entrega-pulso-v08.md](docs/entrega-pulso-v08.md).
+
 ## Evolución v0.7
 
 La jerarquía de las tres vistas se centra en acción y contenido: saludo breve → nueva captura → historial; paso Contexto → campos; paso Revisión → resumen. Se retiraron los titulares interrogativos que repetían la información del stepper o de la tarjeta. La corrección conserva la dirección Pulso y la composición aprobada de Inicio.
