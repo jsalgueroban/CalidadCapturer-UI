@@ -15,6 +15,7 @@ El repositorio se recibió vacío. Por instrucción del responsable, esta propue
 - [componentes.md](componentes.md): catálogo inicial y frontera entre piezas.
 - [referencias-aplicadas.md](referencias-aplicadas.md): consultas concretas a herramientas de la suite, adopciones y rechazos.
 - [CONTRATO-VISUAL.md](CONTRATO-VISUAL.md): dirección A seleccionada, tokens candidatos, motion, assets y límites.
+- [Validación del paquete v0.7](docs/validacion-paquete-v07.md): cobertura de isotipo, fuentes, colores, diseño, transiciones, estructura, campos, acciones y toast, con brechas para integración.
 - [prototype/](prototype/README.md): maqueta móvil navegable para revisar pantallas, estados y transiciones.
 - [concept/v05.html](concept/v05.html): lámina anterior con cuatro pantallas. [Entrega v0.5](docs/entrega-pulso-v05.md) documenta fotografía, icono, copy y verificación.
 - [concept/v06.html](concept/v06.html): enlace anterior que abre la lámina vigente. [Entrega v0.6](docs/entrega-pulso-v06.md) conserva la documentación de esa iteración; su lámina original permanece en el historial de Git.

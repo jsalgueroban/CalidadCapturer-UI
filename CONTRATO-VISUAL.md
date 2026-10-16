@@ -1,4 +1,6 @@
-# Contrato visual · Pulso de captura · v0.1
+# Contrato visual · Pulso de captura · v0.7
+
+La lectura vigente es la evolución v0.7 y la paleta coral/carbón de v0.4, con marca adaptativa v0.6. Las secciones v0.1–v0.3 conservan decisiones históricas y no definen tokens actuales. La [validación de los nueve elementos del paquete](docs/validacion-paquete-v07.md) distingue lo propuesto de lo pendiente para integración.
 
 ## Evolución v0.7 · títulos que orientan sin repetir
 
