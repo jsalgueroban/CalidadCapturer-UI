@@ -20,3 +20,21 @@ figcaption span { opacity: .55; font-variant-numeric: tabular-nums; }
 .board-footer img { width: 32px; height: 32px; border-radius: 7px; }
 @media (max-width: 800px) { .board-header p { display: none; }.phones { grid-template-columns: repeat(2, minmax(0,1fr)); margin-top: 28px; }.board-footer { align-items: flex-start; } }
 @media (max-width: 480px) { .board { padding: 18px 16px; }.phones { gap: 16px; }.phone { border-radius: 26px; padding: 4px; }.phone img { border-radius: 22px; } figcaption { font-size: .65rem; }.board-footer p { line-height: 1.4; } }
+
+
+@font-face {
+  font-family: "Archivo Capturer";
+  src: url("../assets/fonts/Archivo-Latin-Variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 800;
+  font-stretch: 75% 125%;
+  font-display: swap;
+}
+
+html { font-family: "Archivo Capturer", "Segoe UI", sans-serif; }
+.identity strong { font-size: 1.03rem; font-stretch: 90%; font-weight: 750; letter-spacing: -.035em; }
+.identity span { font-size: .76rem; }
+.board-header p { font-size: .82rem; }
+figcaption { font-size: .84rem; font-weight: 700; letter-spacing: -.015em; }
+.board-footer > span { font-size: .78rem; font-weight: 760; }
+.board-footer p { font-size: .76rem; }

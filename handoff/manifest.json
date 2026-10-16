@@ -1,0 +1,32 @@
+{
+  "name": "Calidad Capturer · Pulso de captura",
+  "version": "0.8.0",
+  "target": "react-native-expo",
+  "visualMode": "redesign-in-progress",
+  "provenance": {
+    "fontNative": "https://github.com/google/fonts/blob/main/ofl/archivo/Archivo%5Bwdth%2Cwght%5D.ttf",
+    "fontLicense": "SIL Open Font License 1.1",
+    "welcomePhotoCredit": "David Brossard · CC BY-SA 2.0"
+  },
+  "tokens": "handoff/tokens.ts",
+  "assets": {
+    "appIcon": "assets/icono-capturer-v06-1024.png",
+    "appIconVectorSource": "assets/icono-capturer-v06.svg",
+    "brandInk": "assets/logo-capturer-ink-v06.svg",
+    "brandLight": "assets/logo-capturer-light-v06.svg",
+    "welcomePhoto": "assets/welcome-documentary-v05.jpg",
+    "captureIllustration": "assets/banana-box-cutout-v04.png",
+    "fontNative": "assets/fonts/Archivo-Latin-Variable.ttf",
+    "fontWeb": "assets/fonts/Archivo-Latin-Variable.woff2",
+    "fontLicense": "assets/fonts/OFL-Archivo.txt"
+  },
+  "prototype": "prototype/index.html",
+  "visualBoard": "concept/index.html",
+  "specifications": [
+    "DESIGN.md",
+    "docs/estructura.md",
+    "docs/interacciones.md",
+    "docs/integracion-expo.md",
+    "docs/validacion.md"
+  ]
+}
